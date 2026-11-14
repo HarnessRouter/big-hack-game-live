@@ -78,11 +78,13 @@
       .map((s) => `<span class="skill">${escapeHtml(s)}</span>`)
       .join("");
     const seatWord = c.seats_left === 1 ? "seat left" : "seats left";
-    const isOpen = c.always_on || c.status === "Open";
-    const ownerLabel = isOpen ? "Open problem" : "Owner";
-    const ownerName = isOpen ? (c.owner_first_name || "") : c.owner_first_name;
+    const isIndustry = c.kind === "industry" || c.always_on || c.status === "Open";
+    const badge = c.badge || (isIndustry ? "Industry problem" : "Student · looking for teammates");
+    const tagClass = isIndustry ? "industry" : "student";
+    const ownerLabel = isIndustry ? "Industry problem" : "Owner";
+    const ownerName = isIndustry ? (c.owner_first_name || "") : c.owner_first_name;
     return `<article class="card" data-id="${escapeHtml(c.id)}">
-      <div class="kicker"><span>${escapeHtml(c.id)} · ${escapeHtml(c.status)}</span><span>${escapeHtml((c.venues || []).map(prettyVenue).join(" · "))}</span></div>
+      <div class="kicker"><span class="card-tag ${tagClass}">${escapeHtml(badge)}</span><span class="kicker-meta">${escapeHtml(c.id)} · ${escapeHtml((c.venues || []).map(prettyVenue).join(" · "))}</span></div>
       <h2>${escapeHtml(c.title)}</h2>
       <p class="one-liner">${escapeHtml(c.one_line)}</p>
       <div class="skills">${pills}</div>

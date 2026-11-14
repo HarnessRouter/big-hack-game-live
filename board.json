@@ -66,7 +66,9 @@
       "status": "Open",
       "checked_in": true,
       "always_on": true,
-      "source": "open_problem"
+      "source": "open_problem",
+      "kind": "industry",
+      "badge": "Industry problem"
     },
     {
       "id": "BOTH-15",
@@ -82,7 +84,9 @@
       "status": "Open",
       "checked_in": true,
       "always_on": true,
-      "source": "open_problem"
+      "source": "open_problem",
+      "kind": "industry",
+      "badge": "Industry problem"
     },
     {
       "id": "BOTH-16",
@@ -98,7 +102,9 @@
       "status": "Open",
       "checked_in": true,
       "always_on": true,
-      "source": "open_problem"
+      "source": "open_problem",
+      "kind": "industry",
+      "badge": "Industry problem"
     },
     {
       "id": "BOTH-17",
@@ -114,7 +120,9 @@
       "status": "Open",
       "checked_in": true,
       "always_on": true,
-      "source": "open_problem"
+      "source": "open_problem",
+      "kind": "industry",
+      "badge": "Industry problem"
     },
     {
       "id": "BOTH-18",
@@ -130,7 +138,9 @@
       "status": "Open",
       "checked_in": true,
       "always_on": true,
-      "source": "open_problem"
+      "source": "open_problem",
+      "kind": "industry",
+      "badge": "Industry problem"
     },
     {
       "id": "BOTH-20",
@@ -146,7 +156,9 @@
       "status": "Open",
       "checked_in": true,
       "always_on": true,
-      "source": "open_problem"
+      "source": "open_problem",
+      "kind": "industry",
+      "badge": "Industry problem"
     },
     {
       "id": "LUMA-IIbk5fAt9n5UNRp",
@@ -161,7 +173,9 @@
       "status": "Seeking",
       "checked_in": true,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-0JCzZz1ufSk06Z8",
@@ -176,7 +190,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-0MgYPxFyeRowDuq",
@@ -191,7 +207,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-0iZlezxD877GAcg",
@@ -206,7 +224,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-18Zs1bqBGs9SnxW",
@@ -221,7 +241,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-2GjGKfSuG1UN3kJ",
@@ -236,7 +258,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-3S4iKEri3GW8TNg",
@@ -251,7 +275,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-59JJK4GOWCTl0Vr",
@@ -266,7 +292,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-6HgmbC7y37vZTwu",
@@ -281,7 +309,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-774o8VypNQQPg7T",
@@ -296,7 +326,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-85ehc5GRAk2S3OT",
@@ -311,7 +343,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-8L4OSIC0vRFoGvy",
@@ -326,7 +360,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-8W9DJ0zaF9CMQ25",
@@ -341,7 +377,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-95zqSBgpBXlLQ2r",
@@ -356,7 +394,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-98w4H9TAA8n5EUR",
@@ -371,7 +411,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-AICMuyfD8PuZsFE",
@@ -387,7 +429,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-BZaMfQjH8saaTMP",
@@ -402,7 +446,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-E95PNvRTNiM0bmU",
@@ -417,7 +463,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-EpBZAJyH80EtAAd",
@@ -432,7 +480,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-FEn4CQrHRvsZ7Hs",
@@ -447,7 +497,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-Gc2jyMWvL8kGdJ3",
@@ -462,7 +514,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-HGnWRez8vZutkkz",
@@ -478,7 +532,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-HvvSZLGBWkfR7Ep",
@@ -493,7 +549,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-IBmirAcsfmRJCjv",
@@ -508,7 +566,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-ILGJqsv5Z3ZIvXB",
@@ -523,7 +583,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-JSmv2qTVM0vo98W",
@@ -538,7 +600,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-KPr2UDZOun31uS0",
@@ -553,7 +617,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-Kt64n8G3nVAU6CE",
@@ -569,7 +635,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-M69E6ICRaeJIRIy",
@@ -585,7 +653,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-MXCfkSOF7gHXnf1",
@@ -600,7 +670,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-MzCXHYU3YXJHb2Y",
@@ -615,7 +687,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-NkjTVoXBnshQIvl",
@@ -630,7 +704,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-O2ZKtABNh8Mxuiq",
@@ -645,7 +721,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-PIQFntKVSiXZqnN",
@@ -660,7 +738,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-PUAxG8N9mEARcxC",
@@ -675,7 +755,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-R0EegppSizY6fhA",
@@ -690,7 +772,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-RDZkyYAWKE6q6T2",
@@ -705,7 +789,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-SAbqGoKWYDfaM1S",
@@ -721,7 +807,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-SDe1Y3wG9H01kwM",
@@ -736,7 +824,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-T9vrFwz3J6G9uuq",
@@ -751,7 +841,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-TLjdUQCFeazqWSX",
@@ -766,7 +858,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-Uof0RO85Yl6WcJq",
@@ -781,7 +875,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-VlCd87AUcjqiclO",
@@ -796,7 +892,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-WhDr41cfEjWYKdE",
@@ -811,7 +909,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-XNUbrBka9WsQakn",
@@ -826,7 +926,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-YRYO0RvdTNV6xfG",
@@ -841,7 +943,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-YiJC7ELWtnGQsa1",
@@ -856,7 +960,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-YkDCudLb8RYkD3G",
@@ -871,7 +977,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-YzG0rr9uLDZdZf3",
@@ -886,7 +994,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-Z1GWvzyEWD6szu5",
@@ -901,7 +1011,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-ZY2Kkh9cT6P0iJM",
@@ -916,7 +1028,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-a76HbyzJYvTGFSe",
@@ -931,7 +1045,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-aYnHXlSWhyMXGWy",
@@ -947,7 +1063,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-eE35T0rBDz2Mhgy",
@@ -962,7 +1080,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-eQ9yghuGgRrReHq",
@@ -977,7 +1097,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-fKNRfkcyuHivCFV",
@@ -992,7 +1114,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-fUzNykZVmFtq8oh",
@@ -1007,7 +1131,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-fXlWKCdUDTFBcNW",
@@ -1022,7 +1148,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-gNHQTJPTfl8tj09",
@@ -1037,7 +1165,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-hGqjbmZ5BLLKs1o",
@@ -1052,7 +1182,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-j0Q59yXgbqHoFSi",
@@ -1068,7 +1200,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-jsiyfKosdBHbKXp",
@@ -1083,7 +1217,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-jzBNjtwWZH1g3Fg",
@@ -1099,7 +1235,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-k4Vxl4vkodEBcyl",
@@ -1114,7 +1252,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-kWQ6Ff7H0u7UVNf",
@@ -1129,7 +1269,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-l314YB659IlJvzC",
@@ -1144,7 +1286,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-mB2daV9K4CRgK2n",
@@ -1160,7 +1304,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-mRDy0tueIlgTP7y",
@@ -1175,7 +1321,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-meHS0FbkpHFDbwd",
@@ -1190,7 +1338,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-n79qK10oXqXgmcG",
@@ -1205,7 +1355,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-o1R6BFe7RqcLHQH",
@@ -1220,7 +1372,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-oaKEjB2mrDoUvBk",
@@ -1235,7 +1389,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-oeFsVc0TcRTsGUB",
@@ -1250,7 +1406,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-pasXFnLCe5pykyR",
@@ -1265,7 +1423,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-pqUjtxOHHekGVic",
@@ -1280,7 +1440,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-rSGY6nxAFw8vu2F",
@@ -1295,7 +1457,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-sh1BdyfL5wSXkEb",
@@ -1310,7 +1474,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-tUELX3Fa1MUoPzR",
@@ -1325,7 +1491,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-tuAuHYwyIobE50Z",
@@ -1340,7 +1508,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-uPMkjZoaYte3qZL",
@@ -1355,7 +1525,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-up6Z9k9Iy0xjBjT",
@@ -1370,7 +1542,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-wd7GRGkDzBhAFns",
@@ -1385,7 +1559,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-yOHLWRe50DSfKwr",
@@ -1401,7 +1577,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     },
     {
       "id": "LUMA-zhDkxuMxKtBHW7Q",
@@ -1416,7 +1594,9 @@
       "status": "Seeking",
       "checked_in": false,
       "always_on": false,
-      "source": "luma"
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
     }
   ],
   "sheet_snapshot": false
