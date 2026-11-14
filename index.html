@@ -8,34 +8,26 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="home">
-    <div class="eyebrow">The Big Hack Game · Stanford vs Berkeley</div>
-    <h1>Live Problem Board</h1>
-    <p class="lede">Problems looking for teammates. On Sunday, only cards whose owner has checked in at the door are shown. Use Preview now — nobody has checked in yet.</p>
-    <div class="venue-grid">
-      <a class="venue-card" href="berkeley/">
-        <div><span class="campus-dot berkeley"></span>Berkeley kickoff</div>
-        <h2>Cal Alumni House</h2>
-        <p>Toll Room · Sun Nov 15, 10:00 AM–1:00 PM PT<br>1 Alumni House, Berkeley, CA 94720</p>
-        <div class="go">Open live board →</div>
-      </a>
-      <a class="venue-card" href="stanford/">
-        <div><span class="campus-dot stanford"></span>Stanford kickoff</div>
-        <h2>Stanford Hillel</h2>
-        <p>Sun Nov 15, 2:30–6:30 PM PT</p>
-        <div class="go">Open live board →</div>
-      </a>
+  <header class="top">
+    <div>
+      <h1 id="title">The Big Hack Game</h1>
+      <div class="meta" id="meta"></div>
     </div>
-    <div class="home-links">
-      <a href="berkeley/?preview=1">Berkeley preview</a>
-      <a href="stanford/?preview=1">Stanford preview</a>
-      <a href="berkeley/?screen=1">Berkeley big screen</a>
-      <a href="stanford/?screen=1">Stanford big screen</a>
-      <a href="berkeley/?preview=1&amp;screen=1">Berkeley screen preview</a>
-      <a href="stanford/?preview=1&amp;screen=1">Stanford screen preview</a>
-      <a href="https://community.harnessrouter.ai" target="_blank" rel="noopener">Community</a>
+    <div class="badges">
+      <div class="badge" id="mode">Live</div>
+      <div class="badge count" id="count"></div>
     </div>
-    <p class="note">Live mode hides a card once the team is full, and only shows Owner seeking or Forming cards with seats left. Organizers are not listed as participants.</p>
+  </header>
+  <nav class="filters" id="filters"></nav>
+  <main class="deck" id="deck">
+    <div class="list" id="cards"></div>
+    <aside class="qr-col">
+      <div class="qr-box" id="qr"></div>
+      <p>Scan to open the live board</p>
+    </aside>
   </main>
+  <nav class="dock" id="dock"></nav>
+  <script src="vendor/qrcode.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
