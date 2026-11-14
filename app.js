@@ -49,17 +49,11 @@
 
   function cardBadge(c) {
     if (isIndustry(c)) return "Industry problem";
-    return c.badge || c.team_status || c.status || "Checked in";
+    return c.badge || "Student · looking for teammates";
   }
 
   function badgeClass(label) {
-    const l = (label || "").toLowerCase();
-    if (l === "industry problem") return "industry";
-    if (l === "looking for teammates") return "looking";
-    if (l === "bringing a problem") return "bringing";
-    if (l === "has a team") return "has-team";
-    if (l === "solo") return "solo";
-    return "checked";
+    return (label || "").toLowerCase() === "industry problem" ? "industry" : "looking";
   }
 
   function livePhoneUrl() {
@@ -115,7 +109,7 @@
     const idea = c.idea || c.one_line || "";
     const school = c.school || "";
     const campuses = (c.venues || []).map(prettyVenue).join(" · ");
-    const showSeats = !isIndustry(c) && (badge === "Looking for teammates" || badge === "Bringing a problem") && c.seats_left > 0;
+    const showSeats = !isIndustry(c) && c.seats_left > 0;
     const leadBlock = isIndustry(c)
       ? `<div class="lead muted">Industry problem</div>`
       : lead
