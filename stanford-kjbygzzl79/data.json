@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T00:49:33-08:00",
-  "generated_at_label": "12:49 AM PT",
+  "generated_at": "2026-11-14T00:55:08-08:00",
+  "generated_at_label": "12:55 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,7 +25,7 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2645,
+  "luma_guest_count": 2646,
   "checked_in_count": 1,
   "skipped": {
     "excluded": 2,
@@ -42,11 +42,11 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 37,
-  "preview_count": 37,
+  "card_count": 38,
+  "preview_count": 38,
   "live_count": 7,
   "open_problem_count": 6,
-  "luma_card_count": 31,
+  "luma_card_count": 32,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -425,6 +425,27 @@
       "seats_left": 3,
       "lead": "Kenneth L",
       "owner_first_name": "Kenneth",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am bringing a real-world problem and looking for a team",
+      "checked_in": false,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
+    },
+    {
+      "id": "LUMA-tZyZK4OVenaeSKM",
+      "title": "I want to build an AI-powered Sports Performance Agent for…",
+      "one_line": "I want to build an AI-powered Sports Performance Agent for **Backfield**, our athlete movement intelligence platform, and pilot it with real athletes and coaches at the Los Gatos Performance & Movement Lab. The agent will transform biomechanical data from video-based motion capture (OpenCap), force plates, velocity-based training sensors, and GPS into actionable performance insights. Rather than requiring coaches to interpret complex datasets, athletes and trainers can ask questions like, “What is limiting my sprint performance?”, “Has my movement improved since my last assessment?”, or “What should I focus on in my next training session?” **HarnessRouter** would orchestrate specialized AI agents for movement analysis, performance interpretation, and personalized recommendations, optimizing model selection, tool execution, and inference costs. Our goal during the five-day hackathon is to launch a working agent, onboard real athletes and coaches, and demonstrate measurable customer adoption. **Target users:** High school and collegiate athletes, strength and conditioning coaches, sports performance facilities, and physical therapists.",
+      "idea": "I want to build an AI-powered Sports Performance Agent for **Backfield**, our athlete movement intelligence platform, and pilot it with real athletes and coaches at the Los Gatos Performance & Movement Lab. The agent will transform biomechanical data from video-based motion capture (OpenCap), force plates, velocity-based training sensors, and GPS into actionable performance insights. Rather than requiring coaches to interpret complex datasets, athletes and trainers can ask questions like, “What is limiting my sprint performance?”, “Has my movement improved since my last assessment?”, or “What should I focus on in my next training session?” **HarnessRouter** would orchestrate specialized AI agents for movement analysis, performance interpretation, and personalized recommendations, optimizing model selection, tool execution, and inference costs. Our goal during the five-day hackathon is to launch a working agent, onboard real athletes and coaches, and demonstrate measurable customer adoption. **Target users:** High school and collegiate athletes, strength and conditioning coaches, sports performance facilities, and physical therapists.",
+      "school": "Stanford alumni",
+      "skills": "",
+      "seats_left": 3,
+      "lead": "Kevin Ubilla",
+      "owner_first_name": "Kevin",
       "venues": [
         "stanford"
       ],
