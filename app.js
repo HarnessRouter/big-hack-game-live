@@ -190,7 +190,83 @@
     dock.innerHTML = links.join("");
 
     enhanceCards();
+    renderWhos(data);
     if (screen && !qrBuilt) renderQR();
+  }
+
+  // --- Who's here tab (secret campus pages only: shown only when the
+  // page's data.json carries a whos_here array; guessable pages never do).
+  let activeTab = location.hash === "#whos-here" ? "whos" : "board";
+
+  function ensureTabs() {
+    if ($("tabs")) return;
+    const deck = $("deck");
+    if (!deck || !deck.parentNode) return;
+    const nav = document.createElement("nav");
+    nav.id = "tabs";
+    nav.className = "tabs";
+    nav.setAttribute("role", "tablist");
+    nav.innerHTML =
+      '<button type="button" class="tab" role="tab" data-tab="board">Board</button>' +
+      '<button type="button" class="tab" role="tab" data-tab="whos">Who\'s here<em id="whos-tab-count"></em></button>';
+    deck.parentNode.insertBefore(nav, deck);
+    const panel = document.createElement("section");
+    panel.id = "whos";
+    panel.className = "whos";
+    panel.setAttribute("role", "tabpanel");
+    panel.hidden = true;
+    deck.parentNode.insertBefore(panel, deck.nextSibling);
+    nav.addEventListener("click", (e) => {
+      const b = e.target.closest(".tab");
+      if (!b) return;
+      activeTab = b.getAttribute("data-tab");
+      const url = location.pathname + location.search + (activeTab === "whos" ? "#whos-here" : "");
+      try { history.replaceState(null, "", url); } catch (_) {}
+      applyTab();
+    });
+  }
+
+  function applyTab() {
+    const tabs = $("tabs");
+    if (!tabs) return;
+    tabs.querySelectorAll(".tab").forEach((b) => {
+      const on = b.getAttribute("data-tab") === activeTab;
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-selected", on ? "true" : "false");
+    });
+    $("deck").hidden = activeTab !== "board";
+    $("whos").hidden = activeTab !== "whos";
+  }
+
+  function whosHTML(data) {
+    const list = data.whos_here || [];
+    const frozen = !!data.whos_here_frozen;
+    const n = list.length;
+    const status = frozen
+      ? `<span class="frozen-note">${escapeHtml(data.whos_here_label || "Final list")}</span>`
+      : `<span class="live-indicator"><span class="live-dot" aria-hidden="true"></span> Updates as people check in</span>`;
+    const head = `<div class="whos-head"><span class="whos-count">${n} checked in</span>${status}</div>`;
+    if (!n) {
+      const msg = frozen
+        ? "No one checked in before the Berkeley kickoff ended."
+        : "No one has checked in yet. Names show up here within a couple of minutes of checking in at the door.";
+      return head + `<div class="empty whos-empty"><p>${msg}</p></div>`;
+    }
+    const items = list.map((e) =>
+      `<li><span class="whos-name">${escapeHtml(e.name)}</span>${e.affiliation ? `<span class="whos-aff">${escapeHtml(e.affiliation)}</span>` : ""}</li>`
+    ).join("");
+    return head + `<ul class="whos-list">${items}</ul>`;
+  }
+
+  function renderWhos(data) {
+    if (!Array.isArray(data.whos_here)) return;
+    ensureTabs();
+    const panel = $("whos");
+    if (!panel) return;
+    panel.innerHTML = whosHTML(data);
+    const c = $("whos-tab-count");
+    if (c) c.textContent = String(data.whos_here.length);
+    applyTab();
   }
 
   const expandedIds = new Set();

@@ -360,3 +360,19 @@ body.chooser {
 .frozen-note { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; color: #f5b453; background: rgba(245, 180, 83, 0.12); border: 1px solid rgba(245, 180, 83, 0.4); border-radius: 999px; padding: 2px 9px; }
 div.chooser-card:hover { transform: none; }
 .chooser-when a { color: inherit; text-decoration: underline; }
+
+/* v3: Who's here tab (secret campus pages only) */
+.tabs { max-width: 1120px; margin: 0 auto; padding: 0 24px 6px; display: flex; gap: 6px; }
+.tab { background: #2a2521; border: 1px solid var(--card-edge); border-radius: 999px; padding: 6px 13px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.tab em { font-style: normal; color: var(--faint); margin-left: 6px; font-weight: 650; }
+.tab.on { background: rgba(243, 217, 122, 0.14); color: var(--gold-2); border-color: rgba(243, 217, 122, 0.35); }
+.tab.on em { color: var(--gold-2); }
+.whos { max-width: 1120px; margin: 0 auto; padding: 6px 24px 96px; }
+.whos-head { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 2px 0 10px; }
+.whos-count { font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
+.whos-head .live-indicator { font-size: 12px; }
+.whos-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; }
+.whos-list li { background: linear-gradient(180deg, #221d19, #191512); border: 1px solid var(--card-edge); border-radius: 10px; padding: 8px 12px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.whos-name { font-size: 14px; font-weight: 650; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.whos-aff { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.whos-empty { margin: 8px 0; padding: 20px; }
