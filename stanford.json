@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T21:10:49-08:00",
-  "generated_at_label": "9:10 PM PT",
+  "generated_at": "2026-11-13T21:19:58-08:00",
+  "generated_at_label": "9:19 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -33,18 +33,19 @@
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 0,
-    "time_isolated": 0
+    "time_isolated": 0,
+    "no_campus": 10
   },
   "active_campus": "both",
   "active_campus_switch_at": "2026-11-15T13:45:00-08:00",
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 47,
-  "preview_count": 47,
+  "card_count": 37,
+  "preview_count": 37,
   "live_count": 7,
   "open_problem_count": 6,
-  "luma_card_count": 41,
+  "luma_card_count": 31,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -267,48 +268,6 @@
       "badge": "Student · looking for teammates"
     },
     {
-      "id": "LUMA-M69E6ICRaeJIRIy",
-      "title": "email",
-      "one_line": "email",
-      "idea": "email",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Allan Johns",
-      "owner_first_name": "Allan",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am bringing a real-world problem and looking for a team",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-Kt64n8G3nVAU6CE",
-      "title": "A Context Center",
-      "one_line": "A Context Center",
-      "idea": "A Context Center",
-      "school": "No affiliation; industry professional bringing a real-world problem, Stanford student, Other Stanford / UC Berkeley affiliation",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Andy Zhao",
-      "owner_first_name": "Andy",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
       "id": "LUMA-FEn4CQrHRvsZ7Hs",
       "title": "Fashion for women",
       "one_line": "Fashion for women",
@@ -318,27 +277,6 @@
       "seats_left": 3,
       "lead": "Anushree Raut",
       "owner_first_name": "Anushree",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-HGnWRez8vZutkkz",
-      "title": "A sales research agent for small B2B teams that routes each step to…",
-      "one_line": "A sales research agent for small B2B teams that routes each step to the cheapest model that can do it well, so researching an account costs cents.",
-      "idea": "A sales research agent for small B2B teams that routes each step to the cheapest model that can do it well, so researching an account costs cents.",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Arya Wells",
-      "owner_first_name": "Arya",
       "venues": [
         "stanford"
       ],
@@ -393,27 +331,6 @@
       "badge": "Student · looking for teammates"
     },
     {
-      "id": "LUMA-yOHLWRe50DSfKwr",
-      "title": "I'd like to solve tokens and inference costs and efficiency for…",
-      "one_line": "I'd like to solve tokens and inference costs and efficiency for software startups",
-      "idea": "I'd like to solve tokens and inference costs and efficiency for software startups",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Day Nguyen",
-      "owner_first_name": "Day",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
       "id": "LUMA-tUELX3Fa1MUoPzR",
       "title": "I would like to automate healthcare prior authorization (PA) using…",
       "one_line": "I would like to automate healthcare prior authorization (PA) using agentic AI by building a multi-agent system that handles the workflow from receiving a doctor's order to preparing and submitting an authorization request, tracking its status, and managing follow-ups",
@@ -444,27 +361,6 @@
       "seats_left": 3,
       "lead": "Ethan Li",
       "owner_first_name": "Ethan",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-jzBNjtwWZH1g3Fg",
-      "title": "ADHD people",
-      "one_line": "ADHD people",
-      "idea": "ADHD people",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Grace Chen",
-      "owner_first_name": "Grace",
       "venues": [
         "stanford"
       ],
@@ -582,27 +478,6 @@
       "badge": "Student · looking for teammates"
     },
     {
-      "id": "LUMA-mB2daV9K4CRgK2n",
-      "title": "Looking for teammates",
-      "one_line": "",
-      "idea": "",
-      "school": "Other Stanford / UC Berkeley affiliation",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Manav Divakar",
-      "owner_first_name": "Manav",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
       "id": "LUMA-3S4iKEri3GW8TNg",
       "title": "Will decide",
       "one_line": "Will decide",
@@ -617,69 +492,6 @@
       ],
       "status": "Seeking",
       "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-SAbqGoKWYDfaM1S",
-      "title": "Haus des Bitcoins /",
-      "one_line": "Haus des Bitcoins /",
-      "idea": "Haus des Bitcoins /",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Marcel Pitang",
-      "owner_first_name": "Marcel",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-j0Q59yXgbqHoFSi",
-      "title": "Business setup",
-      "one_line": "Business setup",
-      "idea": "Business setup",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Marwan",
-      "owner_first_name": "Marwan",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am bringing a real-world problem and looking for a team",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-aYnHXlSWhyMXGWy",
-      "title": "Business setup",
-      "one_line": "Business setup",
-      "idea": "Business setup",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Marwan Doe",
-      "owner_first_name": "Marwan",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am bringing a real-world problem and looking for a team",
       "checked_in": false,
       "always_on": false,
       "source": "luma",
@@ -785,27 +597,6 @@
       ],
       "status": "Seeking",
       "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-AICMuyfD8PuZsFE",
-      "title": "/",
-      "one_line": "/",
-      "idea": "/",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Phil Rosen",
-      "owner_first_name": "Phil",
-      "venues": [
-        "stanford"
-      ],
-      "status": "Seeking",
-      "team_status": "I am bringing a real-world problem and looking for a team",
       "checked_in": false,
       "always_on": false,
       "source": "luma",
