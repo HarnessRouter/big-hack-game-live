@@ -109,6 +109,27 @@ nav.filters, .filters[hidden] { display: none !important; }
   overflow: hidden;
   max-width: 90ch;
 }
+.row.is-expanded .idea {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+.row.is-truncatable { cursor: pointer; }
+.more-hint {
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-top: 4px;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold-2);
+  cursor: pointer;
+}
+.more-hint[hidden] { display: none; }
 .row-meta {
   display: flex;
   flex-wrap: wrap;
@@ -182,7 +203,7 @@ nav.filters, .filters[hidden] { display: none !important; }
   background: linear-gradient(180deg, transparent, rgba(13,12,11,0.96) 30%);
   display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
 }
-.dock a {
+.dock a, .dock-link {
   text-decoration: none;
   background: #2a2521;
   border: 1px solid var(--card-edge);
@@ -190,7 +211,17 @@ nav.filters, .filters[hidden] { display: none !important; }
   padding: 8px 12px;
   font-size: 13px;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  line-height: 1;
 }
+.dock-logo, .discord-logo, .hr-logo {
+  flex: 0 0 auto;
+  display: block;
+}
+.discord-logo { color: #5865F2; width: 18px; height: 13px; }
+.hr-logo { width: 18px; height: 18px; border-radius: 4px; }
 
 .qr-col { display: none; }
 
@@ -313,4 +344,12 @@ body.chooser {
 @media (max-width: 700px) {
   .chooser-wrap h1 { font-size: 28px; }
   .chooser-cards { grid-template-columns: 1fr; }
+}
+
+.chooser-dock {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
