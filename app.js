@@ -149,12 +149,32 @@
 
     const here = ROOT + (CAMPUS ? CAMPUS + "/" : "");
     const dock = $("dock");
-    const links = [];
-    if (venueMeta && venueMeta.discord) links.push(`<a href="${venueMeta.discord}">Campus Discord</a>`);
-    if (data.community) links.push(`<a href="${data.community}">Community</a>`);
-    if (!preview) links.push(`<a href="${here}?preview=1">Preview</a>`);
-    else links.push(`<a href="${here}">Live</a>`);
-    dock.innerHTML = links.join("");
+    const explained = [];
+    // Wording is based on the live destinations: Community (community.harnessrouter.ai)
+    // is a forum / hackathon / showcase site; campus Discord is where problems are
+    // posted, and industry cards on this board update from it.
+    if (venueMeta && venueMeta.discord) {
+      explained.push(
+        `<a class="explain-link" href="${escapeHtml(venueMeta.discord)}">` +
+          `<strong>Campus Discord</strong>` +
+          `<span>Post or browse problems and find teammates — this board updates from it.</span>` +
+        `</a>`
+      );
+    }
+    if (data.community) {
+      explained.push(
+        `<a class="explain-link" href="${escapeHtml(data.community)}">` +
+          `<strong>Community</strong>` +
+          `<span>Get help in the forum, show what you made, and follow the hackathon.</span>` +
+        `</a>`
+      );
+    }
+    const action = !preview
+      ? `<a class="dock-action" href="${here}?preview=1">Preview</a>`
+      : `<a class="dock-action" href="${here}">Live</a>`;
+    dock.innerHTML =
+      (explained.length ? `<div class="link-explanations">${explained.join("")}</div>` : "") +
+      `<div class="dock-actions">${action}</div>`;
 
     if (screen && !qrBuilt) renderQR();
   }
