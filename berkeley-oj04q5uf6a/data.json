@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T00:36:36-08:00",
-  "generated_at_label": "12:36 AM PT",
+  "generated_at": "2026-11-14T00:48:27-08:00",
+  "generated_at_label": "12:48 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -29,24 +29,24 @@
   "checked_in_count": 1,
   "skipped": {
     "excluded": 2,
-    "declined": 24,
+    "declined": 29,
     "not_listed": 2534,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 0,
     "time_isolated": 0,
-    "no_campus": 10
+    "no_campus": 8
   },
   "active_campus": "both",
   "active_campus_switch_at": "2026-11-15T13:45:00-08:00",
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 50,
-  "preview_count": 50,
+  "card_count": 47,
+  "preview_count": 47,
   "live_count": 6,
   "open_problem_count": 6,
-  "luma_card_count": 44,
+  "luma_card_count": 41,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -304,27 +304,6 @@
       ],
       "status": "Seeking",
       "team_status": "I am bringing a real-world problem and looking for a team",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-E95PNvRTNiM0bmU",
-      "title": "N/A",
-      "one_line": "N/A",
-      "idea": "N/A",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Andrew Chen",
-      "owner_first_name": "Andrew",
-      "venues": [
-        "berkeley"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
       "checked_in": false,
       "always_on": false,
       "source": "luma",
@@ -836,27 +815,6 @@
       "badge": "Student · looking for teammates"
     },
     {
-      "id": "LUMA-zhDkxuMxKtBHW7Q",
-      "title": "No",
-      "one_line": "No",
-      "idea": "No",
-      "school": "UC Berkeley alumni",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Mike Daley",
-      "owner_first_name": "Mike",
-      "venues": [
-        "berkeley"
-      ],
-      "status": "Seeking",
-      "team_status": "I am bringing a real-world problem and looking for a team",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
       "id": "LUMA-0iZlezxD877GAcg",
       "title": "Not sure yet",
       "one_line": "Not sure yet",
@@ -1076,27 +1034,6 @@
       "seats_left": 3,
       "lead": "Tony Chow",
       "owner_first_name": "Tony",
-      "venues": [
-        "berkeley"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": false,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates"
-    },
-    {
-      "id": "LUMA-JSmv2qTVM0vo98W",
-      "title": "Sure",
-      "one_line": "Sure",
-      "idea": "Sure",
-      "school": "UC Berkeley alumni",
-      "skills": "",
-      "seats_left": 3,
-      "lead": "Trent Eriksen",
-      "owner_first_name": "Trent",
       "venues": [
         "berkeley"
       ],
