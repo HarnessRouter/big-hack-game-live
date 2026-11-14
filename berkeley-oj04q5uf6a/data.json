@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T10:05:40-08:00",
-  "generated_at_label": "10:05 AM PT",
+  "generated_at": "2026-11-14T11:04:19-08:00",
+  "generated_at_label": "11:04 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,7 +25,7 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2650,
+  "luma_guest_count": 2651,
   "checked_in_count": 1,
   "skipped": {
     "excluded": 2,
@@ -42,11 +42,11 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 48,
-  "preview_count": 48,
+  "card_count": 49,
+  "preview_count": 49,
   "live_count": 6,
   "open_problem_count": 6,
-  "luma_card_count": 42,
+  "luma_card_count": 43,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -214,6 +214,27 @@
       "skills": "",
       "seats_left": 3,
       "lead": "Abhishek Garg",
+      "owner_first_name": "Abhishek",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": false,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
+    },
+    {
+      "id": "LUMA-xT94dmOutg2m4Hn",
+      "title": "We will build an AI Compliance & Workflow Auditor using HarnessRouter…",
+      "one_line": "We will build an AI Compliance & Workflow Auditor using HarnessRouter for fintech companies, healthcare startups, and enterprises using AI agents. It will analyze AI agent workflows, detect policy violations and risky decisions, test possible fixes, and automatically generate audit reports and recommendations to help companies operate AI agents safely and efficiently.",
+      "idea": "We will build an AI Compliance & Workflow Auditor using HarnessRouter for fintech companies, healthcare startups, and enterprises using AI agents. It will analyze AI agent workflows, detect policy violations and risky decisions, test possible fixes, and automatically generate audit reports and recommendations to help companies operate AI agents safely and efficiently.",
+      "school": "UC Berkeley student",
+      "skills": "",
+      "seats_left": 3,
+      "lead": "Abhishek Roy",
       "owner_first_name": "Abhishek",
       "venues": [
         "berkeley"
