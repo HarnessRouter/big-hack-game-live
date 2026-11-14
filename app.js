@@ -78,13 +78,16 @@
       .map((s) => `<span class="skill">${escapeHtml(s)}</span>`)
       .join("");
     const seatWord = c.seats_left === 1 ? "seat left" : "seats left";
+    const isOpen = c.always_on || c.status === "Open";
+    const ownerLabel = isOpen ? "Open problem" : "Owner";
+    const ownerName = isOpen ? (c.owner_first_name || "") : c.owner_first_name;
     return `<article class="card" data-id="${escapeHtml(c.id)}">
       <div class="kicker"><span>${escapeHtml(c.id)} · ${escapeHtml(c.status)}</span><span>${escapeHtml((c.venues || []).map(prettyVenue).join(" · "))}</span></div>
       <h2>${escapeHtml(c.title)}</h2>
       <p class="one-liner">${escapeHtml(c.one_line)}</p>
       <div class="skills">${pills}</div>
       <div class="card-foot">
-        <div class="owner"><span>Owner</span>${escapeHtml(c.owner_first_name)}</div>
+        <div class="owner"><span>${ownerLabel}</span>${escapeHtml(ownerName)}</div>
         <div class="seats"><b>${c.seats_left}</b><em>${seatWord}</em></div>
       </div>
     </article>`;
@@ -126,7 +129,7 @@
     mode.className = "badge " + (preview ? "preview" : "live");
 
     const pool = (data.cards || []).filter((c) => (c.venues || []).includes(venue));
-    visible = preview ? pool : pool.filter((c) => c.checked_in);
+    visible = preview ? pool : pool.filter((c) => c.checked_in || c.always_on || c.status === "Open");
     $("count").textContent = visible.length + (visible.length === 1 ? " card" : " cards");
 
     const col = $("cards");
