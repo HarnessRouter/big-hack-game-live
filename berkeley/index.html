@@ -8,7 +8,7 @@
   <script>
     (function () {
       var p = location.pathname.replace(/\/index\.html$/, "").replace(/\/$/, "");
-      var m = p.match(/^(.*)\/(stanford|berkeley)$/);
+      var m = p.match(/^(.*)\/(stanford|berkeley)(-[a-z0-9]+)?$/);
       var root = m ? (m[1] || "") + "/" : p.replace(/\/[^/]*$/, "/");
       if (!root) root = "/";
       var b = document.createElement("base");
@@ -23,8 +23,10 @@
     <div>
       <h1 id="title">The Big Hack Game</h1>
       <div class="meta" id="meta"></div>
+      <div class="meta address" id="address" hidden></div>
       <div class="live-line" id="live-line">
-        <span class="live-indicator"><span class="live-dot" aria-hidden="true"></span> Live · updates in real time</span>
+        <span class="live-indicator" id="live-indicator"><span class="live-dot" aria-hidden="true"></span> Live · updates in real time</span>
+        <span class="frozen-note" id="frozen-note" hidden></span>
         <span class="updated-at" id="updated"></span>
       </div>
     </div>

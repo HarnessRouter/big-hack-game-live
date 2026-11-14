@@ -353,3 +353,10 @@ body.chooser {
   justify-content: center;
   gap: 8px;
 }
+
+/* v2: venue address + map link, frozen-list note */
+[hidden] { display: none !important; }
+.top .meta.address a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.frozen-note { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; color: #f5b453; background: rgba(245, 180, 83, 0.12); border: 1px solid rgba(245, 180, 83, 0.4); border-radius: 999px; padding: 2px 9px; }
+div.chooser-card:hover { transform: none; }
+.chooser-when a { color: inherit; text-decoration: underline; }
