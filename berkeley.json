@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T21:19:58-08:00",
-  "generated_at_label": "9:19 PM PT",
+  "generated_at": "2026-11-13T21:53:48-08:00",
+  "generated_at_label": "9:53 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -29,7 +29,7 @@
   "skipped": {
     "excluded": 2,
     "declined": 23,
-    "not_listed": 2535,
+    "not_listed": 2534,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 0,
@@ -41,11 +41,11 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 49,
-  "preview_count": 49,
+  "card_count": 50,
+  "preview_count": 50,
   "live_count": 6,
   "open_problem_count": 6,
-  "luma_card_count": 43,
+  "luma_card_count": 44,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -193,6 +193,27 @@
       "seats_left": 3,
       "lead": "Aashish Karmacharya",
       "owner_first_name": "Aashish",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": false,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
+    },
+    {
+      "id": "LUMA-tcQqoRXNBbE9VtT",
+      "title": "I’d like to build an AI agent that helps B2B startups automate…",
+      "one_line": "I’d like to build an AI agent that helps B2B startups automate customer research, lead qualification, and personalized outreach. The goal is to help small GTM teams use multiple AI models efficiently to identify high-intent prospects and turn research into actionable sales opportunities, without building complex AI infrastructure themselves.",
+      "idea": "I’d like to build an AI agent that helps B2B startups automate customer research, lead qualification, and personalized outreach. The goal is to help small GTM teams use multiple AI models efficiently to identify high-intent prospects and turn research into actionable sales opportunities, without building complex AI infrastructure themselves.",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "seats_left": 3,
+      "lead": "Abhishek Garg",
+      "owner_first_name": "Abhishek",
       "venues": [
         "berkeley"
       ],
