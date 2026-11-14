@@ -50,7 +50,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   gap: 8px;
   flex-wrap: wrap;
 }
-.filters[hidden] { display: none; }
+nav.filters, .filters[hidden] { display: none !important; }
 .filter {
   background: #2a2521;
   border: 1px solid var(--card-edge);
@@ -213,3 +213,104 @@ body.screen .qr-col {
   width: 180px;
 }
 body.screen .qr-box { width: 148px; height: 148px; background: #fff; padding: 6px; border-radius: 8px; }
+
+.live-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.live-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--live);
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--live);
+  box-shadow: 0 0 0 0 rgba(61, 214, 140, 0.7);
+  animation: live-pulse 1.6s ease-out infinite;
+  flex: 0 0 auto;
+}
+@keyframes live-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(61, 214, 140, 0.65); }
+  70% { box-shadow: 0 0 0 8px rgba(61, 214, 140, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(61, 214, 140, 0); }
+}
+.updated-at { color: var(--muted); font-size: 12px; }
+
+body.chooser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.chooser-wrap {
+  width: min(720px, 100%);
+  text-align: center;
+}
+.chooser-wrap .eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-2);
+  font-weight: 650;
+  margin-bottom: 12px;
+}
+.chooser-wrap h1 {
+  font-size: 36px;
+  letter-spacing: -0.03em;
+  font-weight: 650;
+  margin-bottom: 10px;
+}
+.chooser-sub { color: var(--muted); font-size: 16px; }
+.chooser-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0 28px;
+  color: var(--live);
+  font-size: 14px;
+  font-weight: 650;
+}
+.chooser-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.chooser-card {
+  display: block;
+  text-decoration: none;
+  background: linear-gradient(180deg, #221d19, #191512);
+  border: 1px solid var(--card-edge);
+  border-radius: 18px;
+  padding: 22px 18px 20px;
+  text-align: left;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.chooser-card:hover {
+  border-color: rgba(243, 217, 122, 0.45);
+  transform: translateY(-1px);
+}
+.chooser-campus {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+.chooser-card.berkeley .chooser-campus { color: var(--berkeley); }
+.chooser-card.stanford .chooser-campus { color: #f07a7a; }
+.chooser-venue { color: var(--ink); font-size: 15px; font-weight: 600; }
+.chooser-when { color: var(--muted); font-size: 13px; margin-top: 6px; }
+
+@media (max-width: 700px) {
+  .chooser-wrap h1 { font-size: 28px; }
+  .chooser-cards { grid-template-columns: 1fr; }
+}

@@ -1,9 +1,5 @@
 (function () {
   const params = new URLSearchParams(location.search);
-  const path = location.pathname.replace(/\/index\.html$/, "").replace(/\/$/, "") || "/";
-  const parts = path.split("/").filter(Boolean);
-  const last = parts[parts.length - 1] || "";
-  const pathVenue = last === "stanford" || last === "berkeley" ? last : "";
   const preview = params.has("preview");
   const screen = params.has("screen");
 
@@ -17,17 +13,20 @@
     const dir = p.replace(/\/[^/]*$/, "/");
     return dir || "/";
   }
-  const ROOT = siteRoot();
-  const boardJsonUrl = ROOT + "board.json";
-  const CANONICAL_BASE = "https://harnessrouter.github.io/big-hack-game-live/";
 
-  let filter = params.get("campus") || params.get("venue") || pathVenue || "all";
-  if (filter !== "berkeley" && filter !== "stanford") filter = "all";
+  function pageCampus() {
+    const p = location.pathname.replace(/\/index\.html$/, "").replace(/\/$/, "");
+    const m = p.match(/\/(stanford|berkeley)$/);
+    return m ? m[1] : null;
+  }
+
+  const ROOT = siteRoot();
+  const CAMPUS = pageCampus();
+  const CANONICAL_BASE = "https://harnessrouter.github.io/big-hack-game-live/";
 
   const $ = (id) => document.getElementById(id);
   if (screen) document.body.classList.add("screen");
 
-  let allCards = [];
   let dataCache = null;
   let qrBuilt = false;
 
@@ -56,8 +55,9 @@
     return (label || "").toLowerCase() === "industry problem" ? "industry" : "looking";
   }
 
-  function livePhoneUrl() {
-    return CANONICAL_BASE;
+  function campusUrl() {
+    if (!CAMPUS) return CANONICAL_BASE;
+    return CANONICAL_BASE + CAMPUS + "/";
   }
 
   function renderQR() {
@@ -65,7 +65,7 @@
     if (!box || typeof QRCode === "undefined") return;
     box.innerHTML = "";
     new QRCode(box, {
-      text: livePhoneUrl(),
+      text: campusUrl(),
       width: 148,
       height: 148,
       colorDark: "#0d0c0b",
@@ -75,32 +75,10 @@
     qrBuilt = true;
   }
 
-  function setFilter(next, data) {
-    filter = next;
-    const url = new URL(location.href);
-    if (pathVenue) {
-      // Campus subpath already implies a venue; don't fight the path.
-    } else if (next === "all") {
-      url.searchParams.delete("campus");
-      url.searchParams.delete("venue");
-    } else {
-      url.searchParams.set("campus", next);
-    }
-    history.replaceState(null, "", url);
-    render(data || dataCache);
-  }
-
   function visibleSet(data) {
     const pool = data.cards || [];
-    const live = preview ? pool : pool.filter((c) => c.checked_in || c.always_on || isIndustry(c));
-    const byCampus = (v) => live.filter((c) => (c.venues || []).includes(v));
-    const counts = {
-      all: live.length,
-      berkeley: byCampus("berkeley").length,
-      stanford: byCampus("stanford").length,
-    };
-    const shown = filter === "all" ? live : byCampus(filter);
-    return { shown, counts, live };
+    const shown = preview ? pool : pool.filter((c) => c.checked_in || c.always_on || isIndustry(c));
+    return { shown, previewCount: pool.length };
   }
 
   function cardHTML(c) {
@@ -135,83 +113,59 @@
     </article>`;
   }
 
-  function emptyHTML(data, counts) {
+  function emptyHTML(previewCount) {
     if (preview) {
-      return `<div class="empty"><h2>No cards in this view</h2><p>Try another campus filter, or wait for the board to refresh.</p></div>`;
+      return `<div class="empty"><h2>No cards in this view</h2><p>The board will refresh automatically.</p></div>`;
     }
-    const ready = counts.all;
     return `<div class="empty">
       <h2>Cards appear when people check in at the door</h2>
-      <p>Industry problems stay up the whole time. Checked-in guests are added within about a minute. ${ready ? ready + " cards are ready in preview." : ""}</p>
+      <p>Industry problems stay up the whole time. Checked-in guests are added within about a minute.${previewCount ? " " + previewCount + " cards are ready in preview." : ""}</p>
     </div>`;
-  }
-
-  function renderFilters(counts) {
-    const nav = $("filters");
-    if (!nav) return;
-    if (pathVenue) {
-      nav.innerHTML = "";
-      nav.hidden = true;
-      return;
-    }
-    nav.hidden = false;
-    const items = [
-      ["all", "All"],
-      ["berkeley", "Berkeley"],
-      ["stanford", "Stanford"],
-    ];
-    nav.innerHTML = items
-      .map(([id, label]) => {
-        const on = filter === id ? "on" : "";
-        return `<button type="button" class="filter ${on}" data-campus="${id}">${label} <em>${counts[id] || 0}</em></button>`;
-      })
-      .join("");
-    nav.querySelectorAll("button").forEach((btn) => {
-      btn.addEventListener("click", () => setFilter(btn.getAttribute("data-campus"), dataCache));
-    });
   }
 
   function render(data) {
     if (!data) return;
     dataCache = data;
     const name = data.public_name || "The Big Hack Game";
-    const { shown, counts } = visibleSet(data);
-    const venueMeta = filter !== "all" && data.venues && data.venues[filter] ? data.venues[filter] : null;
-    $("title").textContent = name;
-    document.title = name + " · Live Problem Board";
-    const bits = [];
-    if (venueMeta) bits.push([venueMeta.label, venueMeta.venue, venueMeta.when].filter(Boolean).join(" · "));
-    else bits.push("Stanford vs Berkeley");
-    if (data.generated_at_label) bits.push("Updated " + data.generated_at_label);
+    const { shown, previewCount } = visibleSet(data);
+    const campus = CAMPUS || data.campus || "berkeley";
+    const venueMeta = (data.venues && data.venues[campus]) || {};
+    const campusLabel = venueMeta.label || prettyVenue(campus);
+    $("title").textContent = name + " · " + campusLabel;
+    document.title = name + " · " + campusLabel + " · Live Problem Board";
+    const bits = [campusLabel, venueMeta.venue, venueMeta.when].filter(Boolean);
     $("meta").textContent = bits.join(" · ");
+    const updated = $("updated");
+    if (updated) {
+      updated.textContent = data.generated_at_label ? "Updated " + data.generated_at_label : "";
+    }
     const mode = $("mode");
     mode.textContent = preview ? "Preview" : "Live";
     mode.className = "badge " + (preview ? "preview" : "live");
     $("count").textContent = shown.length + (shown.length === 1 ? " card" : " cards");
 
-    renderFilters(counts);
-
     const col = $("cards");
-    col.innerHTML = shown.length ? shown.map(cardHTML).join("") : emptyHTML(data, counts);
+    col.innerHTML = shown.length ? shown.map(cardHTML).join("") : emptyHTML(previewCount);
 
+    const here = ROOT + (CAMPUS ? CAMPUS + "/" : "");
     const dock = $("dock");
     const links = [];
     if (venueMeta && venueMeta.discord) links.push(`<a href="${venueMeta.discord}">Campus Discord</a>`);
     if (data.community) links.push(`<a href="${data.community}">Community</a>`);
-    if (!preview) links.push(`<a href="${location.pathname}?${filter !== "all" && !pathVenue ? "campus=" + filter + "&" : ""}preview=1">Preview</a>`);
-    else {
-      const u = new URL(location.href);
-      u.searchParams.delete("preview");
-      links.push(`<a href="${u.pathname + u.search}">Live</a>`);
-    }
+    if (!preview) links.push(`<a href="${here}?preview=1">Preview</a>`);
+    else links.push(`<a href="${here}">Live</a>`);
     dock.innerHTML = links.join("");
 
     if (screen && !qrBuilt) renderQR();
   }
 
   async function load() {
+    if (!CAMPUS) {
+      $("meta").textContent = "Choose a campus to open its board.";
+      return;
+    }
     try {
-      const res = await fetch(boardJsonUrl + "?t=" + Date.now(), { cache: "no-store" });
+      const res = await fetch(ROOT + CAMPUS + ".json?t=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error("bad status " + res.status);
       const data = await res.json();
       render(data);
