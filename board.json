@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T21:53:48-08:00",
-  "generated_at_label": "9:53 PM PT",
+  "generated_at": "2026-11-13T22:05:45-08:00",
+  "generated_at_label": "10:05 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -13,10 +13,11 @@
     },
     "stanford": {
       "label": "Stanford",
-      "venue": "Stanford Hillel",
-      "address": "",
+      "venue": "Hillel at Stanford — Koret Pavilion (black double doors)",
+      "address": "564 O'Connor Ln, Stanford, CA",
       "when": "Sun Nov 15, 2:30–6:30 PM PT",
-      "discord": "https://discord.gg/AG8QX3zTf"
+      "discord": "https://discord.gg/AG8QX3zTf",
+      "map": "https://maps.stanford.edu/ada/building-ada.cfm?FACIL_ID=02-950"
     }
   },
   "refresh_seconds": 60,
