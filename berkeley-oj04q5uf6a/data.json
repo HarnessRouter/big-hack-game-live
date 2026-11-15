@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T11:19:55-08:00",
-  "generated_at_label": "11:19 AM PT",
+  "generated_at": "2026-11-15T11:22:07-08:00",
+  "generated_at_label": "11:22 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2683,
-  "checked_in_count": 16,
+  "checked_in_count": 17,
   "skipped": {
     "excluded": 3,
     "declined": 37,
-    "not_listed": 2632,
+    "not_listed": 2631,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 1,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "berkeley",
-  "card_count": 16,
-  "live_count": 16,
+  "card_count": 17,
+  "live_count": 17,
   "open_problem_count": 6,
-  "luma_card_count": 10,
+  "luma_card_count": 11,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -304,6 +304,27 @@
       "section": "students"
     },
     {
+      "id": "LUMA-a76HbyzJYvTGFSe",
+      "title": "I’m a UC Berkeley undergraduate studying Industrial Engineering &…",
+      "one_line": "I’m a UC Berkeley undergraduate studying Industrial Engineering & Operations Research. I’d like to use HarnessRouter to build an AI agent for small businesses that turns customer emails into organized follow-up tasks and drafts replies for human review. I’m interested in entrepreneurship and product development, and I’d use the hackathon to test whether the prototype saves owners time and solves a problem they’d pay to address.",
+      "idea": "I’m a UC Berkeley undergraduate studying Industrial Engineering & Operations Research. I’d like to use HarnessRouter to build an AI agent for small businesses that turns customer emails into organized follow-up tasks and drafts replies for human review. I’m interested in entrepreneurship and product development, and I’d use the hackathon to test whether the prototype saves owners time and solves a problem they’d pay to address.",
+      "school": "UC Berkeley student",
+      "skills": "",
+      "lead": "Hao Tian",
+      "owner_first_name": "Hao",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-U22LEJLAPzswCg0",
       "title": "I'd like to solve a healthcare or personal problems with reducing…",
       "one_line": "I'd like to solve a healthcare or personal problems with reducing digital clutter /storage",
@@ -391,6 +412,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Hao Tian",
+      "affiliation": "UC Berkeley student"
+    },
+    {
       "name": "Stephanie Wang",
       "affiliation": "UC Berkeley student"
     },
@@ -447,7 +472,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 14,
+  "whos_here_count": 15,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
