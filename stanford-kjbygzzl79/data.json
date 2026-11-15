@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:24:52-08:00",
-  "generated_at_label": "2:24 PM PT",
+  "generated_at": "2026-11-15T14:27:03-08:00",
+  "generated_at_label": "2:27 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2686,
-  "checked_in_count": 23,
+  "checked_in_count": 24,
   "skipped": {
     "excluded": 3,
     "declined": 39,
-    "not_listed": 2628,
+    "not_listed": 2627,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 12,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "stanford",
-  "card_count": 10,
-  "live_count": 10,
+  "card_count": 11,
+  "live_count": 11,
   "open_problem_count": 6,
-  "luma_card_count": 4,
+  "luma_card_count": 5,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -199,6 +199,27 @@
       "section": "industry"
     },
     {
+      "id": "LUMA-cOz7J454ai3jW4M",
+      "title": "I’d like to build a code quality evaluation agent that helps…",
+      "one_line": "I’d like to build a code quality evaluation agent that helps engineering teams measure and build trust in AI-generated code, especially in mature codebases where regressions and maintenance costs matter. The core feature would be quantitative, repository-aware quality scoring across correctness, maintainability, architectural consistency, test coverage, and performance. Each score would be backed by concrete evidence, with clear visibility into what was verified and what remains uncertain. I’d use HarnessRouter to coordinate analysis and validation agents, combining code review with automated checks and targeted tests. Teams could use the results to evaluate pull requests, compare coding agents, and track quality over time. For the hackathon, I’d start with a public repository and validate the scoring against historical changes and known defects.",
+      "idea": "I’d like to build a code quality evaluation agent that helps engineering teams measure and build trust in AI-generated code, especially in mature codebases where regressions and maintenance costs matter. The core feature would be quantitative, repository-aware quality scoring across correctness, maintainability, architectural consistency, test coverage, and performance. Each score would be backed by concrete evidence, with clear visibility into what was verified and what remains uncertain. I’d use HarnessRouter to coordinate analysis and validation agents, combining code review with automated checks and targeted tests. Teams could use the results to evaluate pull requests, compare coding agents, and track quality over time. For the hackathon, I’d start with a public repository and validate the scoring against historical changes and known defects.",
+      "school": "Stanford alumni",
+      "skills": "",
+      "lead": "Susan Li",
+      "owner_first_name": "Susan",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am bringing a real-world problem and looking for a team",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "industry_lead",
+      "badge": "Industry problem",
+      "section": "industry"
+    },
+    {
       "id": "LUMA-hd7QJ7xTvuiesSB",
       "title": "I have not yet decided what to build but for the previous hackathon I…",
       "one_line": "I have not yet decided what to build but for the previous hackathon I built a thing which rearranges the pieces of paper if torn apart and taken a picture of",
@@ -265,6 +286,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Susan Li",
+      "affiliation": "Stanford alumni"
+    },
+    {
       "name": "Moe",
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     },
@@ -281,7 +306,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 4,
+  "whos_here_count": 5,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
