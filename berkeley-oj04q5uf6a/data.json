@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T10:43:21-08:00",
-  "generated_at_label": "10:43 AM PT",
+  "generated_at": "2026-11-15T11:02:00-08:00",
+  "generated_at_label": "11:02 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2682,
-  "checked_in_count": 12,
+  "checked_in_count": 13,
   "skipped": {
     "excluded": 3,
     "declined": 37,
-    "not_listed": 2635,
+    "not_listed": 2634,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 0,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "berkeley",
-  "card_count": 13,
-  "live_count": 13,
+  "card_count": 14,
+  "live_count": 14,
   "open_problem_count": 6,
-  "luma_card_count": 7,
+  "luma_card_count": 8,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -283,6 +283,27 @@
       "section": "students"
     },
     {
+      "id": "LUMA-U22LEJLAPzswCg0",
+      "title": "I'd like to solve a healthcare or personal problems with reducing…",
+      "one_line": "I'd like to solve a healthcare or personal problems with reducing digital clutter /storage",
+      "idea": "I'd like to solve a healthcare or personal problems with reducing digital clutter /storage",
+      "school": "UC Berkeley student",
+      "skills": "",
+      "lead": "Janice Liu",
+      "owner_first_name": "Janice",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-VlCd87AUcjqiclO",
       "title": "I'd like to build a fault-tolerant multi-agent system that can detect…",
       "one_line": "I'd like to build a fault-tolerant multi-agent system that can detect failures, prevent error propagation, and recover efficiently using dependency-aware recovery rather than restarting entire workflows. I have experience working on this problem through my current research project at UC San Diego, where I've been developing a multi-agent framework to inject faults such as incorrect agent outputs, timeouts, and tool failures, and evaluate how these failures propagate through downstream agents. I've also been exploring recovery strategies that minimize redundant computation while maintaining task success rates. I'd like to use HarnessRouter to extend this work into a practical, reliable AI agent infrastructure solution for AI startups and engineering teams building production-grade agentic applications.",
@@ -328,6 +349,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Janice Liu",
+      "affiliation": "UC Berkeley student"
+    },
+    {
       "name": "Darren Black",
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     },
@@ -372,7 +397,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 11,
+  "whos_here_count": 12,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
