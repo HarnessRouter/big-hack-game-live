@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T10:28:44-08:00",
-  "generated_at_label": "10:28 AM PT",
+  "generated_at": "2026-11-15T10:35:15-08:00",
+  "generated_at_label": "10:35 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2682,
-  "checked_in_count": 9,
+  "checked_in_count": 10,
   "skipped": {
     "excluded": 3,
     "declined": 37,
-    "not_listed": 2637,
+    "not_listed": 2636,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 0,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "berkeley",
-  "card_count": 11,
-  "live_count": 11,
+  "card_count": 12,
+  "live_count": 12,
   "open_problem_count": 6,
-  "luma_card_count": 5,
+  "luma_card_count": 6,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -262,6 +262,27 @@
       "section": "students"
     },
     {
+      "id": "LUMA-T9vrFwz3J6G9uuq",
+      "title": "not yet decided",
+      "one_line": "not yet decided",
+      "idea": "not yet decided",
+      "school": "UC Berkeley student",
+      "skills": "",
+      "lead": "Ching-Yu Hsu",
+      "owner_first_name": "Ching-Yu",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-VlCd87AUcjqiclO",
       "title": "I'd like to build a fault-tolerant multi-agent system that can detect…",
       "one_line": "I'd like to build a fault-tolerant multi-agent system that can detect failures, prevent error propagation, and recover efficiently using dependency-aware recovery rather than restarting entire workflows. I have experience working on this problem through my current research project at UC San Diego, where I've been developing a multi-agent framework to inject faults such as incorrect agent outputs, timeouts, and tool failures, and evaluate how these failures propagate through downstream agents. I've also been exploring recovery strategies that minimize redundant computation while maintaining task success rates. I'd like to use HarnessRouter to extend this work into a practical, reliable AI agent infrastructure solution for AI startups and engineering teams building production-grade agentic applications.",
@@ -285,6 +306,10 @@
   ],
   "frozen": false,
   "whos_here": [
+    {
+      "name": "Ching-Yu Hsu",
+      "affiliation": "UC Berkeley student"
+    },
     {
       "name": "Kent Ziti",
       "affiliation": "Other Stanford / UC Berkeley affiliation"
@@ -318,7 +343,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 8,
+  "whos_here_count": 9,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
