@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T13:07:53-08:00",
-  "generated_at_label": "1:07 PM PT",
+  "generated_at": "2026-11-15T13:45:44-08:00",
+  "generated_at_label": "1:45 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -33,15 +33,15 @@
     "not_listed": 2630,
     "dup": 0,
     "luma_reused": 0,
-    "other_campus": 1,
-    "time_isolated": 1,
+    "other_campus": 12,
+    "time_isolated": 12,
     "no_campus": 0
   },
-  "active_campus": "berkeley",
+  "active_campus": "stanford",
   "active_campus_switch_at": "2026-11-15T13:45:00-08:00",
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
-  "student_campus": "berkeley",
+  "student_campus": "stanford",
   "card_count": 18,
   "live_count": 18,
   "open_problem_count": 6,
@@ -430,7 +430,9 @@
       "section": "students"
     }
   ],
-  "frozen": false,
+  "frozen": true,
+  "frozen_at": "2026-11-15T13:45:00-08:00",
+  "frozen_note": "Berkeley kickoff ended — list frozen at 1:45 PM PT",
   "whos_here": [
     {
       "name": "Eric Nans",
@@ -506,6 +508,6 @@
     }
   ],
   "whos_here_count": 18,
-  "whos_here_frozen": false,
-  "whos_here_label": null
+  "whos_here_frozen": true,
+  "whos_here_label": "Final list · Berkeley kickoff"
 }

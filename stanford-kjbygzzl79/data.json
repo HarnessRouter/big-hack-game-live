@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T13:07:53-08:00",
-  "generated_at_label": "1:07 PM PT",
+  "generated_at": "2026-11-15T13:45:44-08:00",
+  "generated_at_label": "1:45 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -33,21 +33,21 @@
     "not_listed": 2630,
     "dup": 0,
     "luma_reused": 0,
-    "other_campus": 1,
-    "time_isolated": 1,
+    "other_campus": 12,
+    "time_isolated": 12,
     "no_campus": 0
   },
-  "active_campus": "berkeley",
+  "active_campus": "stanford",
   "active_campus_switch_at": "2026-11-15T13:45:00-08:00",
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
-  "student_campus": "berkeley",
-  "card_count": 6,
-  "live_count": 6,
+  "student_campus": "stanford",
+  "card_count": 7,
+  "live_count": 7,
   "open_problem_count": 6,
-  "luma_card_count": 0,
+  "luma_card_count": 1,
   "campus": "stanford",
-  "student_cards_included": false,
+  "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
   "sheet_snapshot": false,
   "cards": [
@@ -176,11 +176,37 @@
       "source": "open_problem",
       "kind": "industry",
       "badge": "Industry problem"
+    },
+    {
+      "id": "LUMA-3S4iKEri3GW8TNg",
+      "title": "Will decide",
+      "one_line": "Will decide",
+      "idea": "Will decide",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "lead": "Manvender Raparia",
+      "owner_first_name": "Manvender",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
     }
   ],
   "frozen": false,
-  "whos_here": [],
-  "whos_here_count": 0,
+  "whos_here": [
+    {
+      "name": "Manvender Raparia",
+      "affiliation": "No affiliation; industry professional bringing a real-world problem"
+    }
+  ],
+  "whos_here_count": 1,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
