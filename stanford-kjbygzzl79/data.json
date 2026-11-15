@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T21:48:24-08:00",
-  "generated_at_label": "9:48 PM PT",
+  "generated_at": "2026-11-14T21:58:03-08:00",
+  "generated_at_label": "9:58 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,7 +25,7 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2664,
+  "luma_guest_count": 2665,
   "checked_in_count": 1,
   "skipped": {
     "excluded": 2,
@@ -42,11 +42,11 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 41,
-  "preview_count": 41,
+  "card_count": 42,
+  "preview_count": 42,
   "live_count": 7,
   "open_problem_count": 6,
-  "luma_card_count": 35,
+  "luma_card_count": 36,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -341,6 +341,27 @@
       "seats_left": 3,
       "lead": "Deepika Pandita",
       "owner_first_name": "Deepika",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": false,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
+    },
+    {
+      "id": "LUMA-ILO2WGQlK0v09HU",
+      "title": "I'd like to build an AI agent that small cafes and local stores would…",
+      "one_line": "I'd like to build an AI agent that small cafes and local stores would actually pay for: it runs their loyalty program end to end, tracks stamps and rewards, and automatically reaches out to customers on WhatsApp when they haven't visited in a while. I'm already building a loyalty system for cafes in Kyrgyzstan, so I know the customer and the problem firsthand. With HarnessRouter I can route each task to the right model, so the agent stays reliable and cheap enough for a small business to afford. For: independent cafes and small local businesses that keep losing repeat customers because they have no time or tools for retention marketing.",
+      "idea": "I'd like to build an AI agent that small cafes and local stores would actually pay for: it runs their loyalty program end to end, tracks stamps and rewards, and automatically reaches out to customers on WhatsApp when they haven't visited in a while. I'm already building a loyalty system for cafes in Kyrgyzstan, so I know the customer and the problem firsthand. With HarnessRouter I can route each task to the right model, so the agent stays reliable and cheap enough for a small business to afford. For: independent cafes and small local businesses that keep losing repeat customers because they have no time or tools for retention marketing.",
+      "school": "Other Stanford / UC Berkeley affiliation",
+      "skills": "",
+      "seats_left": 3,
+      "lead": "Emirlan Togolokov",
+      "owner_first_name": "Emirlan",
       "venues": [
         "stanford"
       ],
