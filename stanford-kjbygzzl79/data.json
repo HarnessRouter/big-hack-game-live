@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:31:31-08:00",
-  "generated_at_label": "2:31 PM PT",
+  "generated_at": "2026-11-15T14:35:28-08:00",
+  "generated_at_label": "2:35 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2686,
-  "checked_in_count": 28,
+  "checked_in_count": 33,
   "skipped": {
     "excluded": 3,
     "declined": 39,
-    "not_listed": 2626,
+    "not_listed": 2625,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 12,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "stanford",
-  "card_count": 12,
-  "live_count": 12,
+  "card_count": 13,
+  "live_count": 13,
   "open_problem_count": 6,
-  "luma_card_count": 6,
+  "luma_card_count": 7,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -241,6 +241,27 @@
       "section": "students"
     },
     {
+      "id": "LUMA-85ehc5GRAk2S3OT",
+      "title": "travel agent",
+      "one_line": "travel agent",
+      "idea": "travel agent",
+      "school": "Stanford alumni",
+      "skills": "",
+      "lead": "D Fox",
+      "owner_first_name": "D",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-hd7QJ7xTvuiesSB",
       "title": "I have not yet decided what to build but for the previous hackathon I…",
       "one_line": "I have not yet decided what to build but for the previous hackathon I built a thing which rearranges the pieces of paper if torn apart and taken a picture of",
@@ -307,6 +328,26 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Katelyn Le",
+      "affiliation": "Stanford student"
+    },
+    {
+      "name": "Andrew Chang",
+      "affiliation": "Stanford student"
+    },
+    {
+      "name": "Setthasiri Tanerananonth",
+      "affiliation": "Stanford student"
+    },
+    {
+      "name": "Tenzing Gerard Dy Carvalho",
+      "affiliation": "Stanford student"
+    },
+    {
+      "name": "D Fox",
+      "affiliation": "Stanford alumni"
+    },
+    {
       "name": "Andy Zhao",
       "affiliation": "No affiliation; industry professional bringing a real-world problem, Stanford student, Other Stanford / UC Berkeley affiliation"
     },
@@ -343,7 +384,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 9,
+  "whos_here_count": 14,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
