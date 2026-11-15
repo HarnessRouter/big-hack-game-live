@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T09:36:48-08:00",
-  "generated_at_label": "9:36 AM PT",
+  "generated_at": "2026-11-15T09:55:26-08:00",
+  "generated_at_label": "9:55 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,8 +25,8 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2678,
-  "checked_in_count": 1,
+  "luma_guest_count": 2679,
+  "checked_in_count": 2,
   "skipped": {
     "excluded": 3,
     "declined": 37,

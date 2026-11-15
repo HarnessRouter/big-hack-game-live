@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T09:36:48-08:00",
-  "generated_at_label": "9:36 AM PT",
+  "generated_at": "2026-11-15T09:55:26-08:00",
+  "generated_at_label": "9:55 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,8 +25,8 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2678,
-  "checked_in_count": 1,
+  "luma_guest_count": 2679,
+  "checked_in_count": 2,
   "skipped": {
     "excluded": 3,
     "declined": 37,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "berkeley",
-  "card_count": 6,
-  "live_count": 6,
+  "card_count": 7,
+  "live_count": 7,
   "open_problem_count": 6,
-  "luma_card_count": 0,
+  "luma_card_count": 1,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -176,11 +176,37 @@
       "source": "open_problem",
       "kind": "industry",
       "badge": "Industry problem"
+    },
+    {
+      "id": "LUMA-uPMkjZoaYte3qZL",
+      "title": "Backen bottleneck problems with AI generated sites on platforms where…",
+      "one_line": "Backen bottleneck problems with AI generated sites on platforms where the site and data needs to be migrated to another server.",
+      "idea": "Backen bottleneck problems with AI generated sites on platforms where the site and data needs to be migrated to another server.",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "lead": "Ameer Flippin",
+      "owner_first_name": "Ameer",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am bringing a real-world problem and looking for a team",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "industry_lead",
+      "badge": "Industry problem",
+      "section": "industry"
     }
   ],
   "frozen": false,
-  "whos_here": [],
-  "whos_here_count": 0,
+  "whos_here": [
+    {
+      "name": "Ameer Flippin",
+      "affiliation": "No affiliation; industry professional bringing a real-world problem"
+    }
+  ],
+  "whos_here_count": 1,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
