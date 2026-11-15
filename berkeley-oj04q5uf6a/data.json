@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T11:56:32-08:00",
-  "generated_at_label": "11:56 AM PT",
+  "generated_at": "2026-11-15T12:20:35-08:00",
+  "generated_at_label": "12:20 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,8 +25,8 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2684,
-  "checked_in_count": 19,
+  "luma_guest_count": 2685,
+  "checked_in_count": 20,
   "skipped": {
     "excluded": 3,
     "declined": 37,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "berkeley",
-  "card_count": 17,
-  "live_count": 17,
+  "card_count": 18,
+  "live_count": 18,
   "open_problem_count": 6,
-  "luma_card_count": 11,
+  "luma_card_count": 12,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -304,6 +304,27 @@
       "section": "students"
     },
     {
+      "id": "LUMA-W8Gf7poWBQOCb91",
+      "title": "Make the ultimate harness",
+      "one_line": "Make the ultimate harness",
+      "idea": "Make the ultimate harness",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "lead": "Eric Nans",
+      "owner_first_name": "Eric",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-a76HbyzJYvTGFSe",
       "title": "I’m a UC Berkeley undergraduate studying Industrial Engineering &…",
       "one_line": "I’m a UC Berkeley undergraduate studying Industrial Engineering & Operations Research. I’d like to use HarnessRouter to build an AI agent for small businesses that turns customer emails into organized follow-up tasks and drafts replies for human review. I’m interested in entrepreneurship and product development, and I’d use the hackathon to test whether the prototype saves owners time and solves a problem they’d pay to address.",
@@ -412,6 +433,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Eric Nans",
+      "affiliation": "No affiliation; industry professional bringing a real-world problem"
+    },
+    {
       "name": "Dhilen Mistry",
       "affiliation": "UC Berkeley student"
     },
@@ -480,7 +505,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 17,
+  "whos_here_count": 18,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
