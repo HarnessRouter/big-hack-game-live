@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T18:10:16-08:00",
-  "generated_at_label": "6:10 PM PT",
+  "generated_at": "2026-11-14T19:15:37-08:00",
+  "generated_at_label": "7:15 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,7 +25,7 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2661,
+  "luma_guest_count": 2662,
   "checked_in_count": 1,
   "skipped": {
     "excluded": 2,
@@ -42,11 +42,11 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 51,
-  "preview_count": 51,
+  "card_count": 52,
+  "preview_count": 52,
   "live_count": 6,
   "open_problem_count": 6,
-  "luma_card_count": 45,
+  "luma_card_count": 46,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -572,6 +572,27 @@
       "seats_left": 3,
       "lead": "Jingyi Wang",
       "owner_first_name": "Jingyi",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": false,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
+    },
+    {
+      "id": "LUMA-nA7e9Cy3YGHNpel",
+      "title": "harness for post acute patient to reduce readmissipn",
+      "one_line": "harness for post acute patient to reduce readmissipn",
+      "idea": "harness for post acute patient to reduce readmissipn",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "seats_left": 3,
+      "lead": "Johnson K",
+      "owner_first_name": "Johnson",
       "venues": [
         "berkeley"
       ],
