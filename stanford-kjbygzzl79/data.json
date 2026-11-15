@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:57:49-08:00",
-  "generated_at_label": "2:57 PM PT",
+  "generated_at": "2026-11-15T15:04:41-08:00",
+  "generated_at_label": "3:04 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,7 +26,7 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2687,
-  "checked_in_count": 42,
+  "checked_in_count": 43,
   "skipped": {
     "excluded": 3,
     "declined": 39,
@@ -370,6 +370,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Jacob Melendez",
+      "affiliation": "Stanford student"
+    },
+    {
       "name": "Luca Ionescu",
       "affiliation": "Stanford student"
     },
@@ -462,7 +466,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 23,
+  "whos_here_count": 24,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
