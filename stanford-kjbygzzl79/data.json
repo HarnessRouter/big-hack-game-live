@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:42:31-08:00",
-  "generated_at_label": "2:42 PM PT",
+  "generated_at": "2026-11-15T14:46:22-08:00",
+  "generated_at_label": "2:46 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2686,
-  "checked_in_count": 38,
+  "checked_in_count": 40,
   "skipped": {
     "excluded": 3,
     "declined": 39,
-    "not_listed": 2624,
+    "not_listed": 2623,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 12,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "stanford",
-  "card_count": 14,
-  "live_count": 14,
+  "card_count": 15,
+  "live_count": 15,
   "open_problem_count": 6,
-  "luma_card_count": 8,
+  "luma_card_count": 9,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -283,6 +283,27 @@
       "section": "students"
     },
     {
+      "id": "LUMA-kskSNVz9dUBTQFx",
+      "title": "Agentic workflow helper, for anyone arranging their projects",
+      "one_line": "Agentic workflow helper, for anyone arranging their projects",
+      "idea": "Agentic workflow helper, for anyone arranging their projects",
+      "school": "Stanford student",
+      "skills": "",
+      "lead": "Hao Li",
+      "owner_first_name": "Hao",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-3S4iKEri3GW8TNg",
       "title": "Will decide",
       "one_line": "Will decide",
@@ -348,6 +369,14 @@
   ],
   "frozen": false,
   "whos_here": [
+    {
+      "name": "Hao Li",
+      "affiliation": "Stanford student"
+    },
+    {
+      "name": "Chiyo Nakatsuji",
+      "affiliation": "Stanford student"
+    },
     {
       "name": "Yuanjie Zhao",
       "affiliation": "Stanford student"
@@ -425,7 +454,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 19,
+  "whos_here_count": 21,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
