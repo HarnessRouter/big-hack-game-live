@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T15:16:57-08:00",
-  "generated_at_label": "3:16 PM PT",
+  "generated_at": "2026-11-15T15:27:53-08:00",
+  "generated_at_label": "3:27 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2687,
-  "checked_in_count": 45,
+  "checked_in_count": 46,
   "skipped": {
     "excluded": 3,
     "declined": 39,
-    "not_listed": 2623,
+    "not_listed": 2622,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 12,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "stanford",
-  "card_count": 16,
-  "live_count": 16,
+  "card_count": 17,
+  "live_count": 17,
   "open_problem_count": 6,
-  "luma_card_count": 10,
+  "luma_card_count": 11,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -325,6 +325,27 @@
       "section": "students"
     },
     {
+      "id": "LUMA-VLEEiuvWVdOl69B",
+      "title": "I'd build an alignment layer that plugs into HarnessRouter, so any…",
+      "one_line": "I'd build an alignment layer that plugs into HarnessRouter, so any harness routed through it stays connected to what the user actually meant. My Alignment Harness is designed around the recurring moments in an agent session where drift creeps in: a misread request turns into a wrong plan, and then into working code aimed at the wrong target. The idea is to step in at those moments so a misreading costs one sentence to fix instead of a day. HarnessRouter makes harnesses interchangeable, which makes it the natural place for that layer to live. It's for teams shipping agents to real users, starting with coaching and support, where a confident wrong answer does real damage. By demo day I'd want real users running it and a before-and-after on how often sessions drift.",
+      "idea": "I'd build an alignment layer that plugs into HarnessRouter, so any harness routed through it stays connected to what the user actually meant. My Alignment Harness is designed around the recurring moments in an agent session where drift creeps in: a misread request turns into a wrong plan, and then into working code aimed at the wrong target. The idea is to step in at those moments so a misreading costs one sentence to fix instead of a day. HarnessRouter makes harnesses interchangeable, which makes it the natural place for that layer to live. It's for teams shipping agents to real users, starting with coaching and support, where a confident wrong answer does real damage. By demo day I'd want real users running it and a before-and-after on how often sessions drift.",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "lead": "Jonathan Haber",
+      "owner_first_name": "Jonathan",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-3S4iKEri3GW8TNg",
       "title": "Will decide",
       "one_line": "Will decide",
@@ -390,6 +411,10 @@
   ],
   "frozen": false,
   "whos_here": [
+    {
+      "name": "Jonathan Haber",
+      "affiliation": "No affiliation; industry professional bringing a real-world problem"
+    },
     {
       "name": "Naomi Choi",
       "affiliation": "Stanford student"
@@ -495,7 +520,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 26,
+  "whos_here_count": 27,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
