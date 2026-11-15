@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T10:20:07-08:00",
-  "generated_at_label": "10:20 AM PT",
+  "generated_at": "2026-11-15T10:28:44-08:00",
+  "generated_at_label": "10:28 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -199,6 +199,27 @@
       "section": "industry"
     },
     {
+      "id": "LUMA-nA7e9Cy3YGHNpel",
+      "title": "harness for post acute patient to reduce readmissipn",
+      "one_line": "harness for post acute patient to reduce readmissipn",
+      "idea": "harness for post acute patient to reduce readmissipn",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "lead": "Johnson K",
+      "owner_first_name": "Johnson",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "industry_lead",
+      "badge": "Industry problem",
+      "section": "industry"
+    },
+    {
       "id": "LUMA-Si1QfJC8NJNEOe3",
       "title": "wellbeing of humanity",
       "one_line": "wellbeing of humanity",
@@ -228,27 +249,6 @@
       "skills": "",
       "lead": "Cesar Cruz",
       "owner_first_name": "Cesar",
-      "venues": [
-        "berkeley"
-      ],
-      "status": "Seeking",
-      "team_status": "I am looking for teammates",
-      "checked_in": true,
-      "always_on": false,
-      "source": "luma",
-      "kind": "student",
-      "badge": "Student · looking for teammates",
-      "section": "students"
-    },
-    {
-      "id": "LUMA-nA7e9Cy3YGHNpel",
-      "title": "harness for post acute patient to reduce readmissipn",
-      "one_line": "harness for post acute patient to reduce readmissipn",
-      "idea": "harness for post acute patient to reduce readmissipn",
-      "school": "No affiliation; industry professional bringing a real-world problem",
-      "skills": "",
-      "lead": "Johnson K",
-      "owner_first_name": "Johnson",
       "venues": [
         "berkeley"
       ],
