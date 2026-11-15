@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T19:15:37-08:00",
-  "generated_at_label": "7:15 PM PT",
+  "generated_at": "2026-11-14T20:03:17-08:00",
+  "generated_at_label": "8:03 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -25,7 +25,7 @@
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": true,
   "luma_error": null,
-  "luma_guest_count": 2662,
+  "luma_guest_count": 2663,
   "checked_in_count": 1,
   "skipped": {
     "excluded": 2,
@@ -42,11 +42,11 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": false,
   "student_campus": null,
-  "card_count": 52,
-  "preview_count": 52,
+  "card_count": 53,
+  "preview_count": 53,
   "live_count": 6,
   "open_problem_count": 6,
-  "luma_card_count": 46,
+  "luma_card_count": 47,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -1118,6 +1118,27 @@
       "seats_left": 3,
       "lead": "Samuel Zheng",
       "owner_first_name": "Samuel",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": false,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates"
+    },
+    {
+      "id": "LUMA-WEJY7cY53CRAJYT",
+      "title": "I’d like to build a lightweight AI-powered tool that automatically…",
+      "one_line": "I’d like to build a lightweight AI-powered tool that automatically cleans Excel/CSV data and generates quarterly reports for small businesses, helping them save time and make data-driven decisions.",
+      "idea": "I’d like to build a lightweight AI-powered tool that automatically cleans Excel/CSV data and generates quarterly reports for small businesses, helping them save time and make data-driven decisions.",
+      "school": "UC Berkeley student",
+      "skills": "",
+      "seats_left": 3,
+      "lead": "Stephanie Wang",
+      "owner_first_name": "Stephanie",
       "venues": [
         "berkeley"
       ],
