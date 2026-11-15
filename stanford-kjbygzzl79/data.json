@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:09:23-08:00",
-  "generated_at_label": "2:09 PM PT",
+  "generated_at": "2026-11-15T14:10:29-08:00",
+  "generated_at_label": "2:10 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2686,
-  "checked_in_count": 21,
+  "checked_in_count": 22,
   "skipped": {
     "excluded": 3,
     "declined": 39,
-    "not_listed": 2630,
+    "not_listed": 2629,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 12,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "stanford",
-  "card_count": 8,
-  "live_count": 8,
+  "card_count": 9,
+  "live_count": 9,
   "open_problem_count": 6,
-  "luma_card_count": 2,
+  "luma_card_count": 3,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -199,6 +199,27 @@
       "section": "industry"
     },
     {
+      "id": "LUMA-hd7QJ7xTvuiesSB",
+      "title": "I have not yet decided what to build but for the previous hackathon I…",
+      "one_line": "I have not yet decided what to build but for the previous hackathon I built a thing which rearranges the pieces of paper if torn apart and taken a picture of",
+      "idea": "I have not yet decided what to build but for the previous hackathon I built a thing which rearranges the pieces of paper if torn apart and taken a picture of",
+      "school": "No affiliation; industry professional bringing a real-world problem",
+      "skills": "",
+      "lead": "guru raj kolipakula",
+      "owner_first_name": "guru",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-3S4iKEri3GW8TNg",
       "title": "Will decide",
       "one_line": "Will decide",
@@ -223,6 +244,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "guru raj kolipakula",
+      "affiliation": "No affiliation; industry professional bringing a real-world problem"
+    },
+    {
       "name": "Lorna",
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     },
@@ -231,7 +256,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 2,
+  "whos_here_count": 3,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
