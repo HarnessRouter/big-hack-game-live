@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T10:05:19-08:00",
-  "generated_at_label": "10:05 AM PT",
+  "generated_at": "2026-11-15T10:09:41-08:00",
+  "generated_at_label": "10:09 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2681,
-  "checked_in_count": 4,
+  "checked_in_count": 5,
   "skipped": {
     "excluded": 3,
     "declined": 37,
-    "not_listed": 2639,
+    "not_listed": 2638,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 0,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "berkeley",
-  "card_count": 8,
-  "live_count": 8,
+  "card_count": 9,
+  "live_count": 9,
   "open_problem_count": 6,
-  "luma_card_count": 2,
+  "luma_card_count": 3,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -199,6 +199,27 @@
       "section": "industry"
     },
     {
+      "id": "LUMA-9Wk6QcCTf3HefE2",
+      "title": "B2B ADU permit AI automation software for small towns.",
+      "one_line": "B2B ADU permit AI automation software for small towns.",
+      "idea": "B2B ADU permit AI automation software for small towns.",
+      "school": "UC Berkeley student",
+      "skills": "",
+      "lead": "Cesar Cruz",
+      "owner_first_name": "Cesar",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-nA7e9Cy3YGHNpel",
       "title": "harness for post acute patient to reduce readmissipn",
       "one_line": "harness for post acute patient to reduce readmissipn",
@@ -223,6 +244,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Cesar Cruz",
+      "affiliation": "UC Berkeley student"
+    },
+    {
       "name": "Ben Gong",
       "affiliation": "UC Berkeley student"
     },
@@ -235,7 +260,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 3,
+  "whos_here_count": 4,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
