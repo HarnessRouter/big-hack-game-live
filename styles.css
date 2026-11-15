@@ -153,7 +153,6 @@ nav.filters, .filters[hidden] { display: none !important; }
 }
 .lead.muted { color: var(--faint); font-weight: 600; font-size: 12px; }
 .school { color: var(--muted); font-size: 12.5px; }
-.seats { color: var(--gold-2); font-size: 12.5px; font-weight: 650; margin-left: auto; }
 
 .card-tag {
   display: inline-flex; align-items: center;
@@ -230,7 +229,6 @@ nav.filters, .filters[hidden] { display: none !important; }
   .row { padding: 10px 12px; }
   .row h2 { font-size: 16px; }
   .row-meta { gap: 6px 12px; }
-  .seats { margin-left: 0; }
 }
 
 /* Optional projector: compact list + root QR */

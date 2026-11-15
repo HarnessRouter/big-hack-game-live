@@ -105,15 +105,11 @@
     const idea = c.idea || c.one_line || "";
     const school = c.school || "";
     const campuses = (c.venues || []).map(prettyVenue).join(" · ");
-    const showSeats = !isIndustry(c) && c.seats_left > 0;
     const leadBlock = isIndustry(c)
       ? `<div class="lead muted">Industry problem</div>`
       : lead
         ? `<div class="lead"><span>Lead</span> ${escapeHtml(lead)}</div>`
         : "";
-    const seats = showSeats
-      ? `<div class="seats">${c.seats_left} ${c.seats_left === 1 ? "seat" : "seats"}</div>`
-      : "";
     return `<article class="row" data-id="${escapeHtml(c.id)}" data-kind="${isIndustry(c) ? "industry" : isIndustryLead(c) ? "industry-lead" : "student"}">
       <div class="row-main">
         <div class="row-top">
@@ -126,7 +122,6 @@
         <div class="row-meta">
           ${leadBlock}
           ${school ? `<div class="school">${escapeHtml(school)}</div>` : ""}
-          ${seats}
         </div>
       </div>
     </article>`;
