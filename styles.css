@@ -39,7 +39,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   padding: 5px 9px; border-radius: 999px;
 }
 .badge.live { background: rgba(61, 214, 140, 0.15); color: var(--live); }
-.badge.preview { background: rgba(240, 162, 2, 0.16); color: var(--preview); }
 .badge.count { background: rgba(255,255,255,0.06); color: var(--ink); }
 
 .filters {

@@ -1,6 +1,5 @@
 (function () {
   const params = new URLSearchParams(location.search);
-  const preview = params.has("preview");
   const screen = params.has("screen");
 
   function siteRoot() {
@@ -90,8 +89,8 @@
 
   function visibleSet(data) {
     const pool = data.cards || [];
-    const shown = preview ? pool : pool.filter((c) => c.checked_in || c.always_on || isIndustry(c));
-    return { shown, previewCount: pool.length };
+    const shown = pool.filter((c) => c.checked_in || c.always_on || isIndustry(c));
+    return { shown };
   }
 
   function cardHTML(c) {
@@ -127,13 +126,10 @@
     </article>`;
   }
 
-  function emptyHTML(previewCount) {
-    if (preview) {
-      return `<div class="empty"><h2>No cards in this view</h2><p>The board will refresh automatically.</p></div>`;
-    }
+  function emptyHTML() {
     return `<div class="empty">
       <h2>Cards appear when people check in at the door</h2>
-      <p>Industry problems stay up the whole time. Checked-in guests are added within about a minute.${previewCount ? " " + previewCount + " cards are ready in preview." : ""}</p>
+      <p>Industry problems stay up the whole time. Checked-in guests are added within about a minute.</p>
     </div>`;
   }
 
@@ -141,7 +137,7 @@
     if (!data) return;
     dataCache = data;
     const name = data.public_name || "The Big Hack Game";
-    const { shown, previewCount } = visibleSet(data);
+    const { shown } = visibleSet(data);
     const campus = CAMPUS || data.campus || "berkeley";
     const venueMeta = (data.venues && data.venues[campus]) || {};
     const campusLabel = venueMeta.label || prettyVenue(campus);
@@ -169,14 +165,13 @@
       updated.textContent = data.generated_at_label ? "Updated " + data.generated_at_label : "";
     }
     const mode = $("mode");
-    mode.textContent = preview ? "Preview" : "Live";
-    mode.className = "badge " + (preview ? "preview" : "live");
+    mode.textContent = "Live";
+    mode.className = "badge live";
     $("count").textContent = shown.length + (shown.length === 1 ? " card" : " cards");
 
     const col = $("cards");
-    col.innerHTML = shown.length ? shown.map(cardHTML).join("") : emptyHTML(previewCount);
+    col.innerHTML = shown.length ? shown.map(cardHTML).join("") : emptyHTML();
 
-    const here = ROOT + (PAGE_DIR ? PAGE_DIR + "/" : "");
     const dock = $("dock");
     const links = [];
     if (venueMeta && venueMeta.discord) {
@@ -185,8 +180,6 @@
     if (data.community) {
       links.push(`<a class="dock-link" href="${escapeHtml(data.community)}">${HR_LOGO}<span>Community</span></a>`);
     }
-    if (!preview) links.push(`<a class="dock-link dock-action" href="${here}?preview=1">Preview</a>`);
-    else links.push(`<a class="dock-link dock-action" href="${here}">Live</a>`);
     dock.innerHTML = links.join("");
 
     enhanceCards();
