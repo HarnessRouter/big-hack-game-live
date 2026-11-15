@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T15:04:41-08:00",
-  "generated_at_label": "3:04 PM PT",
+  "generated_at": "2026-11-15T15:08:07-08:00",
+  "generated_at_label": "3:08 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2687,
-  "checked_in_count": 43,
+  "checked_in_count": 44,
   "skipped": {
     "excluded": 3,
     "declined": 39,
-    "not_listed": 2624,
+    "not_listed": 2623,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 12,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "stanford",
-  "card_count": 15,
-  "live_count": 15,
+  "card_count": 16,
+  "live_count": 16,
   "open_problem_count": 6,
-  "luma_card_count": 9,
+  "luma_card_count": 10,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -220,6 +220,27 @@
       "section": "industry"
     },
     {
+      "id": "LUMA-8W9DJ0zaF9CMQ25",
+      "title": "Cyberpunk augmentations for agents, allowing agents to self-augment…",
+      "one_line": "Cyberpunk augmentations for agents, allowing agents to self-augment their skills and abilities. Made for the agent economy.",
+      "idea": "Cyberpunk augmentations for agents, allowing agents to self-augment their skills and abilities. Made for the agent economy.",
+      "school": "Stanford student",
+      "skills": "",
+      "lead": "Aksh Parekh",
+      "owner_first_name": "Aksh",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
+    },
+    {
       "id": "LUMA-Kt64n8G3nVAU6CE",
       "title": "A Context Center",
       "one_line": "A Context Center",
@@ -370,6 +391,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Aksh Parekh",
+      "affiliation": "Stanford student"
+    },
+    {
       "name": "Jacob Melendez",
       "affiliation": "Stanford student"
     },
@@ -466,7 +491,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 24,
+  "whos_here_count": 25,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
