@@ -54,12 +54,18 @@
       .replace(/"/g, "&quot;");
   }
 
+  // Built-in industry problems (no person name).
   function isIndustry(c) {
     return c.kind === "industry" || c.always_on || c.status === "Open";
   }
 
+  // Checked-in guest who brought a real-world problem: Industry tag + Lead name.
+  function isIndustryLead(c) {
+    return c.kind === "industry_lead" || c.section === "industry";
+  }
+
   function cardBadge(c) {
-    if (isIndustry(c)) return "Industry problem";
+    if (isIndustry(c) || isIndustryLead(c)) return "Industry problem";
     return c.badge || "Student · looking for teammates";
   }
 
@@ -108,7 +114,7 @@
     const seats = showSeats
       ? `<div class="seats">${c.seats_left} ${c.seats_left === 1 ? "seat" : "seats"}</div>`
       : "";
-    return `<article class="row" data-id="${escapeHtml(c.id)}" data-kind="${isIndustry(c) ? "industry" : "student"}">
+    return `<article class="row" data-id="${escapeHtml(c.id)}" data-kind="${isIndustry(c) ? "industry" : isIndustryLead(c) ? "industry-lead" : "student"}">
       <div class="row-main">
         <div class="row-top">
           <span class="card-tag ${badgeClass(badge)}">${escapeHtml(badge)}</span>
