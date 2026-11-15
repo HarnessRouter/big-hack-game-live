@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T10:42:13-08:00",
-  "generated_at_label": "10:42 AM PT",
+  "generated_at": "2026-11-15T10:43:21-08:00",
+  "generated_at_label": "10:43 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -23,16 +23,16 @@
   "refresh_seconds": 60,
   "luma_event_url": "https://luma.com/t2598jt6",
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
-  "luma_ok": false,
-  "luma_error": "TimeoutError: The read operation timed out",
-  "luma_guest_count": 0,
-  "checked_in_count": 6,
+  "luma_ok": true,
+  "luma_error": null,
+  "luma_guest_count": 2682,
+  "checked_in_count": 12,
   "skipped": {
-    "excluded": 0,
-    "declined": 0,
-    "not_listed": 0,
+    "excluded": 3,
+    "declined": 37,
+    "not_listed": 2635,
     "dup": 0,
-    "luma_reused": 6,
+    "luma_reused": 0,
     "other_campus": 0,
     "time_isolated": 0,
     "no_campus": 0
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "berkeley",
-  "card_count": 12,
-  "live_count": 12,
+  "card_count": 13,
+  "live_count": 13,
   "open_problem_count": 6,
-  "luma_card_count": 6,
+  "luma_card_count": 7,
   "campus": "berkeley",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -302,10 +302,39 @@
       "kind": "student",
       "badge": "Student · looking for teammates",
       "section": "students"
+    },
+    {
+      "id": "LUMA-ZY2Kkh9cT6P0iJM",
+      "title": "I want to build \"Secretly Stanford?\", a Big Game week app for Cal and…",
+      "one_line": "I want to build \"Secretly Stanford?\", a Big Game week app for Cal and Stanford students that settles the oldest rivalry accusation: upload your class schedule, Spotify top artists and a few camera-roll photos, and it tells you what percent Stanford you really are, with a roast to back it up. Behind the scenes, each person gets a sandboxed HarnessRouter run where an agent analyzes what they shared, writes the verdict and renders a story-sized card they can post in seconds. Because HarnessRouter puts Claude Code, Codex and others behind one API, one harness argues you’re a true Bear while another argues you belong in Palo Alto, and your card shows who won the debate.",
+      "idea": "I want to build \"Secretly Stanford?\", a Big Game week app for Cal and Stanford students that settles the oldest rivalry accusation: upload your class schedule, Spotify top artists and a few camera-roll photos, and it tells you what percent Stanford you really are, with a roast to back it up. Behind the scenes, each person gets a sandboxed HarnessRouter run where an agent analyzes what they shared, writes the verdict and renders a story-sized card they can post in seconds. Because HarnessRouter puts Claude Code, Codex and others behind one API, one harness argues you’re a true Bear while another argues you belong in Palo Alto, and your card shows who won the debate.",
+      "school": "UC Berkeley student",
+      "skills": "",
+      "lead": "Paul Tresattayapan",
+      "owner_first_name": "Paul",
+      "venues": [
+        "berkeley"
+      ],
+      "status": "Seeking",
+      "team_status": "I am looking for teammates",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "student",
+      "badge": "Student · looking for teammates",
+      "section": "students"
     }
   ],
   "frozen": false,
   "whos_here": [
+    {
+      "name": "Darren Black",
+      "affiliation": "No affiliation; industry professional bringing a real-world problem"
+    },
+    {
+      "name": "Paul Tresattayapan",
+      "affiliation": "UC Berkeley student"
+    },
     {
       "name": "Ching-Yu Hsu",
       "affiliation": "UC Berkeley student"
@@ -343,7 +372,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 9,
+  "whos_here_count": 11,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
