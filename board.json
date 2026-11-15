@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T06:15:08-08:00",
-  "generated_at_label": "6:15 AM PT",
+  "generated_at": "2026-11-15T06:16:28-08:00",
+  "generated_at_label": "6:16 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -24,7 +24,7 @@
   "luma_event_url": "https://luma.com/t2598jt6",
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
   "luma_ok": false,
-  "luma_error": "TimeoutError: The read operation timed out",
+  "luma_error": "RemoteDisconnected: Remote end closed connection without response",
   "luma_guest_count": 0,
   "checked_in_count": 1,
   "skipped": {
