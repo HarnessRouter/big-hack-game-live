@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T01:29:01-08:00",
-  "generated_at_label": "1:29 AM PT",
+  "generated_at": "2026-11-15T01:40:10-08:00",
+  "generated_at_label": "1:40 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -30,12 +30,12 @@
   "skipped": {
     "excluded": 2,
     "declined": 36,
-    "not_listed": 2549,
+    "not_listed": 2637,
     "dup": 0,
     "luma_reused": 0,
-    "other_campus": 36,
-    "time_isolated": 36,
-    "no_campus": 6
+    "other_campus": 1,
+    "time_isolated": 1,
+    "no_campus": 0
   },
   "active_campus": "berkeley",
   "active_campus_switch_at": "2026-11-15T13:45:00-08:00",
@@ -43,7 +43,6 @@
   "isolation_active": true,
   "student_campus": "berkeley",
   "card_count": 6,
-  "preview_count": 6,
   "live_count": 6,
   "open_problem_count": 6,
   "luma_card_count": 0,
