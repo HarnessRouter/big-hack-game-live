@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T16:06:25-08:00",
-  "generated_at_label": "4:06 PM PT",
+  "generated_at": "2026-11-15T16:18:36-08:00",
+  "generated_at_label": "4:18 PM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -26,11 +26,11 @@
   "luma_ok": true,
   "luma_error": null,
   "luma_guest_count": 2687,
-  "checked_in_count": 46,
+  "checked_in_count": 47,
   "skipped": {
     "excluded": 3,
     "declined": 39,
-    "not_listed": 2622,
+    "not_listed": 2621,
     "dup": 0,
     "luma_reused": 0,
     "other_campus": 12,
@@ -42,10 +42,10 @@
   "isolation_starts_at": "2026-11-15T00:00:00-08:00",
   "isolation_active": true,
   "student_campus": "stanford",
-  "card_count": 17,
-  "live_count": 17,
+  "card_count": 18,
+  "live_count": 18,
   "open_problem_count": 6,
-  "luma_card_count": 11,
+  "luma_card_count": 12,
   "campus": "stanford",
   "student_cards_included": true,
   "open_problems_source": "file:/workspace/board/export/open_problems.json",
@@ -176,6 +176,27 @@
       "source": "open_problem",
       "kind": "industry",
       "badge": "Industry problem"
+    },
+    {
+      "id": "LUMA-tZyZK4OVenaeSKM",
+      "title": "I want to build an AI-powered Sports Performance Agent for…",
+      "one_line": "I want to build an AI-powered Sports Performance Agent for **Backfield**, our athlete movement intelligence platform, and pilot it with real athletes and coaches at the Los Gatos Performance & Movement Lab. The agent will transform biomechanical data from video-based motion capture (OpenCap), force plates, velocity-based training sensors, and GPS into actionable performance insights. Rather than requiring coaches to interpret complex datasets, athletes and trainers can ask questions like, “What is limiting my sprint performance?”, “Has my movement improved since my last assessment?”, or “What should I focus on in my next training session?” **HarnessRouter** would orchestrate specialized AI agents for movement analysis, performance interpretation, and personalized recommendations, optimizing model selection, tool execution, and inference costs. Our goal during the five-day hackathon is to launch a working agent, onboard real athletes and coaches, and demonstrate measurable customer adoption. **Target users:** High school and collegiate athletes, strength and conditioning coaches, sports performance facilities, and physical therapists.",
+      "idea": "I want to build an AI-powered Sports Performance Agent for **Backfield**, our athlete movement intelligence platform, and pilot it with real athletes and coaches at the Los Gatos Performance & Movement Lab. The agent will transform biomechanical data from video-based motion capture (OpenCap), force plates, velocity-based training sensors, and GPS into actionable performance insights. Rather than requiring coaches to interpret complex datasets, athletes and trainers can ask questions like, “What is limiting my sprint performance?”, “Has my movement improved since my last assessment?”, or “What should I focus on in my next training session?” **HarnessRouter** would orchestrate specialized AI agents for movement analysis, performance interpretation, and personalized recommendations, optimizing model selection, tool execution, and inference costs. Our goal during the five-day hackathon is to launch a working agent, onboard real athletes and coaches, and demonstrate measurable customer adoption. **Target users:** High school and collegiate athletes, strength and conditioning coaches, sports performance facilities, and physical therapists.",
+      "school": "Stanford alumni",
+      "skills": "",
+      "lead": "Kevin Ubilla",
+      "owner_first_name": "Kevin",
+      "venues": [
+        "stanford"
+      ],
+      "status": "Seeking",
+      "team_status": "I am bringing a real-world problem and looking for a team",
+      "checked_in": true,
+      "always_on": false,
+      "source": "luma",
+      "kind": "industry_lead",
+      "badge": "Industry problem",
+      "section": "industry"
     },
     {
       "id": "LUMA-Z1GWvzyEWD6szu5",
@@ -412,6 +433,10 @@
   "frozen": false,
   "whos_here": [
     {
+      "name": "Kevin Ubilla",
+      "affiliation": "Stanford alumni"
+    },
+    {
       "name": "Jonathan Haber",
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     },
@@ -520,7 +545,7 @@
       "affiliation": "No affiliation; industry professional bringing a real-world problem"
     }
   ],
-  "whos_here_count": 27,
+  "whos_here_count": 28,
   "whos_here_frozen": false,
   "whos_here_label": null
 }
