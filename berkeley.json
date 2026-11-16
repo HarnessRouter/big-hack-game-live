@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T09:11:18-08:00",
-  "generated_at_label": "9:11 AM PT",
+  "generated_at": "2026-11-16T09:22:57-08:00",
+  "generated_at_label": "9:22 AM PT",
   "public_name": "The Big Hack Game",
   "community": "https://community.harnessrouter.ai",
   "venues": {
@@ -23,16 +23,16 @@
   "refresh_seconds": 60,
   "luma_event_url": "https://luma.com/t2598jt6",
   "luma_event_api_id": "evt-gvUGFeqO4DBSmBt",
-  "luma_ok": true,
-  "luma_error": null,
-  "luma_guest_count": 2694,
-  "checked_in_count": 48,
+  "luma_ok": false,
+  "luma_error": "TimeoutError: The read operation timed out",
+  "luma_guest_count": 0,
+  "checked_in_count": 25,
   "skipped": {
-    "excluded": 3,
-    "declined": 41,
-    "not_listed": 2625,
+    "excluded": 0,
+    "declined": 0,
+    "not_listed": 0,
     "dup": 0,
-    "luma_reused": 0,
+    "luma_reused": 25,
     "other_campus": 12,
     "time_isolated": 12,
     "no_campus": 0
